@@ -120,7 +120,22 @@ def process():
 
             try:
                 logging.info(f"Sending text files to frontend at {frontend_url}")
-                response = requests.post(frontend_url, files=files)
+                try:
+                    response = requests.post(frontend_url, files=files)
+                    response.raise_for_status()
+                except requests.exceptions.ConnectionError as e:
+                    logging.error(f"Connection error during file upload to frontend: {e}")
+                    return jsonify({"error": "Connection error during file upload"}), 500
+                except requests.exceptions.Timeout as e:
+                    logging.error(f"Timeout during file upload to frontend: {e}")
+                    return jsonify({"error": "Timeout during file upload"}), 500
+                except requests.exceptions.HTTPError as e:
+                    logging.error(f"HTTP error during file upload to frontend: {e}")
+                    return jsonify({"error": "HTTP error during file upload"}), 500
+                except requests.exceptions.RequestException as e:
+                    logging.error(f"General error during file upload to frontend: {e}")
+                    return jsonify({"error": "Failed to send files due to a general request error"}), 500
+
 
                 if response.status_code == 200:
                     logging.info("Files sent successfully to frontend")
