@@ -73,7 +73,7 @@ def process_toxicity(file_path):
 @application.route('/')
 def home():
     logging.info("Home route accessed")
-    return "Welcome to the Business Contract Analyzer!"
+    return "<h1>Welcome to the Business Contract Analyzer!</h1>"
 
 @application.route('/process', methods=['POST'])  # Allow only POST method
 def process():
