@@ -79,34 +79,41 @@ def home():
     logging.info("Home route accessed")
     return "<h1>Welcome to the Business Contract Analyzer!</h1>"
 
-@application.route('/process', methods=['POST'])  # Allow only POST method
+@application.route('/process', methods=['POST'])
 def process():
     logging.info("Processing file upload")
 
+    # 파일 유무 체크
     if 'file' not in request.files:
         logging.error("No file part in request")
         return jsonify({"error": "No file part"}), 400
 
     file = request.files['file']
-
     if file.filename == '':
         logging.error("No file selected")
         return jsonify({"error": "No selected file"}), 400
 
     if file and file.filename.endswith('.pdf'):
         logging.info(f"Received PDF file: {file.filename}")
+        
+        # Referer 헤더에서 유저가 접속한 URL의 도메인을 추출
+        referer = request.headers.get("Referer")
+        if referer:
+            # Referer로부터 도메인 추출
+            base_url = referer.rstrip('/')  # 마지막에 /가 있을 경우 제거
+            nextjs_api = f"{base_url}/api/upload"  # 엔드포인트 설정
+        else:
+            logging.error("No Referer found in request headers")
+            return jsonify({"error": "Could not determine the Next.js API endpoint"}), 400
 
-        # 운영 체제에 맞는 임시 디렉토리 사용
+        # PDF 파일을 임시 디렉토리에 저장
         temp_dir = tempfile.gettempdir()
-        logging.info(f"Temporary directory is: {temp_dir}")
-
-        # Save the PDF file temporarily
         with tempfile.NamedTemporaryFile(delete=False, suffix='.pdf', dir=temp_dir) as temp_file:
             file_path = temp_file.name
             file.save(file_path)
         logging.info(f"Temporary PDF file saved at: {file_path}")
 
-        # Split the PDF into text files, one per page
+        # PDF를 페이지별로 텍스트 파일로 변환
         txt_files = []
         try:
             with pdfplumber.open(file_path) as pdf:
@@ -118,29 +125,13 @@ def process():
                     txt_files.append(txt_file_path)
                     logging.info(f"Created text file for page {i + 1}: {txt_file_path}")
 
-            # Send text files to frontend server
-            frontend_url = "https://business-contract-analyzer-git-main-jun-songs-projects.vercel.app/api/upload"
+            # 텍스트 파일을 Next.js API로 전송
             files = {f"file_{i + 1}": open(txt_file, 'rb') for i, txt_file in enumerate(txt_files)}
-
             try:
-                logging.info(f"Sending text files to frontend at {frontend_url}")
-                try:
-                    response = requests.post(frontend_url, files=files)
-                    response.raise_for_status()
-                except requests.exceptions.ConnectionError as e:
-                    logging.error(f"Connection error during file upload to frontend: {e}")
-                    return jsonify({"error": "Connection error during file upload"}), 500
-                except requests.exceptions.Timeout as e:
-                    logging.error(f"Timeout during file upload to frontend: {e}")
-                    return jsonify({"error": "Timeout during file upload"}), 500
-                except requests.exceptions.HTTPError as e:
-                    logging.error(f"HTTP error during file upload to frontend: {e}")
-                    return jsonify({"error": "HTTP error during file upload"}), 500
-                except requests.exceptions.RequestException as e:
-                    logging.error(f"General error during file upload to frontend: {e}")
-                    return jsonify({"error": "Failed to send files due to a general request error"}), 500
-
-
+                logging.info(f"Sending text files to frontend at {nextjs_api}")
+                response = requests.post(nextjs_api, files=files)
+                response.raise_for_status()
+                
                 if response.status_code == 200:
                     logging.info("Files sent successfully to frontend")
                     return jsonify({"message": "Files sent successfully to frontend"}), 200
@@ -148,14 +139,16 @@ def process():
                     logging.error(f"Failed to send files, status code: {response.status_code}")
                     return jsonify({"error": f"Failed to send files, status code: {response.status_code}"}), 500
 
+            except requests.exceptions.RequestException as e:
+                logging.error(f"Error during file upload to frontend: {e}")
+                return jsonify({"error": f"Error during file upload: {e}"}), 500
+
             finally:
-                # Close files after sending to frontend
                 for f in files.values():
                     f.close()
-
+                    
         finally:
-            # Remove all temporary files
-            logging.info(f"Removing temporary files")
+            # 임시 파일 삭제
             os.remove(file_path)
             for txt_file in txt_files:
                 try:
