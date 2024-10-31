@@ -118,28 +118,20 @@ def process():
                     txt_files.append(txt_file_path)
                     logging.info(f"Created text file for page {i + 1}: {txt_file_path}")
 
+            # 요청의 Origin 헤더에서 frontend_url 설정
+            frontend_url = request.headers.get('Origin')
+            if frontend_url is None:
+                logging.error("Could not determine frontend URL from request headers")
+                return jsonify({"error": "Invalid request: No Origin header"}), 400
+
             # Send text files to frontend server
-            frontend_url = "http://localhost:3000/api/upload"
+            upload_endpoint = f"{frontend_url}/api/upload"
             files = {f"file_{i + 1}": open(txt_file, 'rb') for i, txt_file in enumerate(txt_files)}
 
             try:
-                logging.info(f"Sending text files to frontend at {frontend_url}")
-                try:
-                    response = requests.post(frontend_url, files=files)
-                    response.raise_for_status()
-                except requests.exceptions.ConnectionError as e:
-                    logging.error(f"Connection error during file upload to frontend: {e}")
-                    return jsonify({"error": "Connection error during file upload"}), 500
-                except requests.exceptions.Timeout as e:
-                    logging.error(f"Timeout during file upload to frontend: {e}")
-                    return jsonify({"error": "Timeout during file upload"}), 500
-                except requests.exceptions.HTTPError as e:
-                    logging.error(f"HTTP error during file upload to frontend: {e}")
-                    return jsonify({"error": "HTTP error during file upload"}), 500
-                except requests.exceptions.RequestException as e:
-                    logging.error(f"General error during file upload to frontend: {e}")
-                    return jsonify({"error": "Failed to send files due to a general request error"}), 500
-
+                logging.info(f"Sending text files to frontend at {upload_endpoint}")
+                response = requests.post(upload_endpoint, files=files)
+                response.raise_for_status()
 
                 if response.status_code == 200:
                     logging.info("Files sent successfully to frontend")
@@ -148,6 +140,10 @@ def process():
                     logging.error(f"Failed to send files, status code: {response.status_code}")
                     return jsonify({"error": f"Failed to send files, status code: {response.status_code}"}), 500
 
+            except requests.exceptions.RequestException as e:
+                logging.error(f"Error sending files to frontend: {e}")
+                return jsonify({"error": "Failed to send files to frontend"}), 500
+
             finally:
                 # Close files after sending to frontend
                 for f in files.values():
@@ -155,7 +151,7 @@ def process():
 
         finally:
             # Remove all temporary files
-            logging.info(f"Removing temporary files")
+            logging.info("Removing temporary files")
             os.remove(file_path)
             for txt_file in txt_files:
                 try:
