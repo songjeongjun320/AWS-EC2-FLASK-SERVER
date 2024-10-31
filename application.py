@@ -11,7 +11,11 @@ from flask_cors import CORS
 application = Flask(__name__)
 
 # CORS 설정 추가
-CORS(application, resources={r"/*": {"origins": "https://business-contract-analyzer-4252whg8d-jun-songs-projects.vercel.app"}})
+CORS(application, resources={r"/*": {"origins": [
+    "https://business-contract-analyzer.vercel.app",
+    "https://business-contract-analyzer-git-main-jun-songs-projects.vercel.app",
+    "https://business-contract-analyzer-4252whg8d-jun-songs-projects.vercel.app"
+]}})
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='--Log: %(message)s')
