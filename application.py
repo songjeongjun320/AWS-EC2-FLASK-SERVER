@@ -8,30 +8,28 @@ import json
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import asyncio
+import time
+import asyncio
+from groq import Groq  # Assuming you have a Groq Python SDK; install if needed
+from dotenv import load_dotenv
 
 
 application = Flask(__name__)
 
 # CORS 설정 추가
-CORS(application, resources={r"/*": {"origins": [
-    "https://business-contract-analyzer.vercel.app",
-    "https://business-contract-analyzer-git-main-jun-songs-projects.vercel.app",
-    "https://business-contract-analyzer-4252whg8d-jun-songs-projects.vercel.app",
-    "http://localhost:3000",  # 로컬 개발 환경 허용
-    "https://jeongjunsong.com"
-]}})
+# CORS(application, resources={r"/*": {"origins": [
+#     "https://business-contract-analyzer.vercel.app",
+#     "https://business-contract-analyzer-git-main-jun-songs-projects.vercel.app",
+#     "https://business-contract-analyzer-4252whg8d-jun-songs-projects.vercel.app",
+#     "http://localhost:3000",  # 로컬 개발 환경 허용
+#     "https://jeongjunsong.com"
+# ]}})
+
+# Set all request
+CORS(application, resources={r"/*": {"origins": "*"}})
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='--Log: %(message)s')
-
-import os
-import json
-import time
-import logging
-import asyncio
-from groq import Groq  # Assuming you have a Groq Python SDK; install if needed
-from dotenv import load_dotenv
-
 load_dotenv()  # Load environment variables
 logging.basicConfig(level=logging.INFO)
 
