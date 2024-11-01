@@ -1,7 +1,6 @@
 import os
 import pdfplumber
 import tempfile
-import requests
 import logging
 import pandas as pd
 import json
@@ -9,7 +8,6 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import asyncio
 import time
-import asyncio
 from groq import Groq  # Assuming you have a Groq Python SDK; install if needed
 from dotenv import load_dotenv
 
@@ -17,26 +15,14 @@ from dotenv import load_dotenv
 application = Flask(__name__)
 
 # CORS 설정 추가
-# CORS(application, resources={r"/*": {"origins": [
-#     "https://business-contract-analyzer.vercel.app",
-#     "https://business-contract-analyzer-git-main-jun-songs-projects.vercel.app",
-#     "https://business-contract-analyzer-4252whg8d-jun-songs-projects.vercel.app",
-#     "http://localhost:3000",  # 로컬 개발 환경 허용
-#     "https://jeongjunsong.com"
-# ]}})
-
-# Set all request
 CORS(application, resources={r"/*": {"origins": "*"}})
-
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='--Log: %(message)s')
 load_dotenv()  # Load environment variables
 logging.basicConfig(level=logging.INFO)
 
-
 # groq API 호출
-# Run the function as an example (Uncomment below to use in an async environment)
 async def process_groq(txt_dir, json_dir):
     logging.info("process_groq function started")
 
@@ -52,17 +38,21 @@ async def process_groq(txt_dir, json_dir):
         with open(all_results_path, 'r', encoding="utf-8") as f:
             all_result_data = json.load(f)
 
-        logging.info("Loaded toxicity level data from base_data.json")
+        logging.info("Successfully loaded toxicity level data from base_data.json")
     except Exception as error:
         logging.error("Error loading base_data.json:", error)
         raise error
 
     # Read text files
     text_files = [file for file in os.listdir(txt_dir) if file.endswith(".txt")]
-    logging.info(f"Text files found: {text_files}")
+    logging.info(f"Text files found for processing: {text_files}")
 
     # Initialize Groq SDK
     groq = Groq(api_key=os.getenv("GROQ_API_KEY"))
+
+    # 기본 대기 시간 설정
+    base_delay = 20  # 기본 대기 시간
+    delay = base_delay  # 초기 대기 시간 설정
 
     # Process each text file with a delay to prevent rate limiting
     for file_name in text_files:
@@ -72,6 +62,7 @@ async def process_groq(txt_dir, json_dir):
         try:
             with open(file_path, 'r', encoding="utf-8") as file:
                 text = file.read()
+            logging.info(f"Successfully read text from file: {file_name}")
         except UnicodeDecodeError:
             logging.warning(f"UTF-8 decoding failed for {file_name}. Trying ISO-8859-1.")
             with open(file_path, 'r', encoding="ISO-8859-1") as file:
@@ -100,6 +91,8 @@ async def process_groq(txt_dir, json_dir):
                 model="llama3-70b-8192"
             )
 
+            logging.info(f"Sent request to Groq API for file: {file_name}")
+
             # Process the response and save results
             json_content = response.choices[0].message.content.strip()
             if '{' in json_content and '}' in json_content:
@@ -122,14 +115,17 @@ async def process_groq(txt_dir, json_dir):
 
             with open(result_file_path, 'w', encoding="utf-8") as f:
                 json.dump(existing_data, f, indent=2)
-            
+
             logging.info(f"Updated results saved in all_results.json for {file_name}")
+
+            # 파일 처리가 완료된 후 대기 시간을 기다리지 않고 다음 파일로 이동
+            delay = base_delay  # 대기 시간을 기본 대기 시간으로 초기화
 
         except Exception as error:
             logging.error(f"Error processing file {file_name}: {error}")
 
         # Add a delay between requests to avoid hitting rate limits
-        await asyncio.sleep(20)  # Adjust the delay (in seconds) as needed
+        await asyncio.sleep(delay)  # Adjust the delay (in seconds) as needed
 
 
 
@@ -219,6 +215,7 @@ def process():
                 final_results_data = json.load(f)
 
             # final_results.json 그대로 전달
+            logging.info("Returning final results to client")
             return jsonify(final_results_data), 200
 
         finally:
@@ -261,7 +258,6 @@ def model_weight():
         return jsonify({"error": f"파일 처리에 실패했습니다: {str(e)}"})
 
 
-
 # 기존의 process_toxicity 함수 추가
 def process_toxicity(file_path):
     """
@@ -271,9 +267,11 @@ def process_toxicity(file_path):
     try:
         # 엑셀 파일 읽기
         df = pd.read_excel(file_path)
+        logging.info(f"Reading Excel file: {file_path}")
 
         # 'Financial Impact'와 'Probability of happening'을 곱해서 새로운 'Calculated Toxicity' 열 추가
         df['Calculated Toxicity'] = df['Financial Impact'] * df['Probability of happening']
+        logging.info("Calculated toxicity levels based on financial impact and probability.")
 
         # 독성 수준을 분류하는 함수
         def categorize_toxicity(toxicity):
@@ -286,9 +284,11 @@ def process_toxicity(file_path):
 
         # 분류 함수 적용해서 'Toxicity Level' 열 추가
         df['Toxicity Level'] = df['Calculated Toxicity'].apply(categorize_toxicity)
+        logging.info("Categorized toxicity levels into low, medium, and high.")
 
         # 전체 항목 리스트
         all_items_list = df['Contractual Terms'].tolist()
+        logging.info("Extracted all contractual terms.")
 
         # 'high', 'medium', 'low'로 그룹화된 리스트 생성
         high_list = df[df['Toxicity Level'] == 'high']['Contractual Terms'].tolist()
@@ -303,15 +303,20 @@ def process_toxicity(file_path):
         }
 
         # JSON 형식으로 결과를 반환
+        logging.info("Processed toxicity data and preparing JSON response.")
         return json.dumps(result)
 
     except FileNotFoundError:
+        logging.error(f"File not found: {file_path}")
         return json.dumps({'error': f"File not found: {file_path}"})
     except pd.errors.EmptyDataError:
+        logging.error("Excel file is empty.")
         return json.dumps({'error': "Excel file is empty"})
     except KeyError as e:
+        logging.error(f"Missing expected column: {e}")
         return json.dumps({'error': f"Missing expected column: {e}"})
     except Exception as e:
+        logging.error(f"An unexpected error occurred: {str(e)}")
         return json.dumps({'error': f"An unexpected error occurred: {str(e)}"})
 
 
@@ -331,15 +336,19 @@ async def organize_final_results(json_dir):
         
         # 초기화된 final_results 데이터 구조
         final_results_data = {"high": [], "medium": [], "low": []}
+        logging.info("Initialized final results data structure.")
 
         # base_data를 기준으로 all_results 데이터를 분류하여 final_results에 추가
         for item, clauses in all_results_data.items():
             if item in base_data['high']:
                 final_results_data['high'].extend(clauses)
+                logging.info(f"Added clauses to high category for item: {item}")
             elif item in base_data['medium']:
                 final_results_data['medium'].extend(clauses)
+                logging.info(f"Added clauses to medium category for item: {item}")
             elif item in base_data['low']:
                 final_results_data['low'].extend(clauses)
+                logging.info(f"Added clauses to low category for item: {item}")
 
         # 결과를 final_results.json 파일로 저장
         with open(final_results_path, 'w', encoding="utf-8") as f:
