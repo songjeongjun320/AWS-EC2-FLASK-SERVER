@@ -139,7 +139,8 @@ def home():
 @application.route('/process', methods=['POST'])
 def process():
     logging.info("Processing file upload")
-
+    logging.info(f"Request data: {request.data}")  # 요청 데이터 로그 추가
+    
     # 파일 유무 체크
     if 'file' not in request.files:
         logging.error("No file part in request")
