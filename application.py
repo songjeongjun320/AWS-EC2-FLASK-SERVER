@@ -129,7 +129,7 @@ async def process_groq(txt_dir, json_dir):
             logging.error(f"Error processing file {file_name}: {error}")
 
         # Add a delay between requests to avoid hitting rate limits
-        await asyncio.sleep(10)  # Adjust the delay (in seconds) as needed
+        await asyncio.sleep(20)  # Adjust the delay (in seconds) as needed
 
 
 
