@@ -17,7 +17,8 @@ CORS(application, resources={r"/*": {"origins": [
     "https://business-contract-analyzer.vercel.app",
     "https://business-contract-analyzer-git-main-jun-songs-projects.vercel.app",
     "https://business-contract-analyzer-4252whg8d-jun-songs-projects.vercel.app",
-    "http://localhost:3000"  # 로컬 개발 환경 허용
+    "http://localhost:3000",  # 로컬 개발 환경 허용
+    "https://jeongjunsong.com"
 ]}})
 
 # Set up logging
