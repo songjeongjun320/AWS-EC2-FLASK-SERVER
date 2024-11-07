@@ -164,16 +164,18 @@ def process():
         # PDF를 페이지별로 텍스트 파일로 변환
         txt_dir = os.path.join(temp_dir, "txt_results")
         os.makedirs(txt_dir, exist_ok=True)
-        txt_files = []
+
+        combined_txt_file_path = os.path.join(txt_dir, "combined_all.txt")
+
         try:
             with pdfplumber.open(file_path) as pdf:
-                for i, page in enumerate(pdf.pages):
-                    text = page.extract_text()
-                    txt_file_path = os.path.join(txt_dir, f"{i + 1}.txt")
-                    with open(txt_file_path, 'w') as txt_file:
-                        txt_file.write(text or "")
-                    txt_files.append(txt_file_path)
-                    logging.info(f"Created text file for page {i + 1}: {txt_file_path}")
+                with open(combined_txt_file_path, 'w', encoding='utf-8') as combined_file:
+                    for i, page in enumerate(pdf.pages):
+                        text = page.extract_text()
+                        if text:
+                            combined_file.write(text)
+                            combined_file.write("\n\n")  # 페이지 구분을 위해 빈 줄 추가
+                        logging.info(f"Appended text from page {i + 1} to combined_all.txt")
 
             # JSON 결과를 저장할 디렉토리 생성
             json_dir = os.path.join(temp_dir, "json_results")
@@ -205,6 +207,7 @@ def process():
             logging.info("Created final_results.json")
 
             # process_groq 및 organize_final_results 비동기 함수 호출
+            logging.info("--LOG process_groq... ")
             asyncio.run(process_groq(txt_dir, json_dir))
             asyncio.run(organize_final_results(json_dir))
 
@@ -222,12 +225,11 @@ def process():
         finally:
             # 임시 PDF 파일 삭제
             os.remove(file_path)
-            for txt_file in txt_files:
-                try:
-                    os.remove(txt_file)
-                    logging.info(f"Deleted {txt_file}")
-                except Exception as e:
-                    logging.error(f"Failed to delete {txt_file}: {e}")
+            try:
+                os.remove(combined_txt_file_path)
+                logging.info(f"Deleted {combined_txt_file_path}")
+            except Exception as e:
+                logging.error(f"Failed to delete {combined_txt_file_path}: {e}")
 
     else:
         logging.error("Invalid file type")
