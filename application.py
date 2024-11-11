@@ -51,8 +51,8 @@ async def process_groq(txt_dir, json_dir):
     groq = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
     # 기본 대기 시간 설정
-    base_delay = 20  # 기본 대기 시간
-    delay = base_delay  # 초기 대기 시간 설정
+    # base_delay = 20  # 기본 대기 시간
+    # delay = base_delay  # 초기 대기 시간 설정
 
     # Process each text file with a delay to prevent rate limiting
     for file_name in text_files:
@@ -119,13 +119,13 @@ async def process_groq(txt_dir, json_dir):
             logging.info(f"Updated results saved in all_results.json for {file_name}")
 
             # 파일 처리가 완료된 후 대기 시간을 기다리지 않고 다음 파일로 이동
-            delay = base_delay  # 대기 시간을 기본 대기 시간으로 초기화
+            # delay = base_delay  # 대기 시간을 기본 대기 시간으로 초기화
 
         except Exception as error:
             logging.error(f"Error processing file {file_name}: {error}")
 
         # Add a delay between requests to avoid hitting rate limits
-        await asyncio.sleep(delay)  # Adjust the delay (in seconds) as needed
+        # await asyncio.sleep(delay)  # Adjust the delay (in seconds) as needed
 
 
 
