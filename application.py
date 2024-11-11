@@ -48,7 +48,7 @@ async def process_groq(txt_dir, json_dir):
     logging.info(f"Text files found for processing: {text_files}")
 
     # Initialize Groq SDK
-    groq = Groq(api_key=os.getenv("GROQ_API_KEY_SUB2"))
+    groq = Groq(api_key=os.getenv("GROQ_API_KEY_SUB1"))
 
     # 기본 대기 시간 설정
     # base_delay = 20  # 기본 대기 시간
