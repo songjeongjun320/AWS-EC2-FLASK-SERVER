@@ -22,6 +22,13 @@ logging.basicConfig(level=logging.INFO, format='--Log: %(message)s')
 load_dotenv()  # Load environment variables
 logging.basicConfig(level=logging.INFO)
 
+@application.route('/')
+def home():
+    logging.info("Home route accessed")
+    return jsonify({"message": "Welcome to the Jun's All project's backend Server!!"}), 200
+
+###################################################################################################
+# Business Contract Analyzer ######################################################################
 # groq API 호출
 async def process_groq(txt_dir, json_dir):
     logging.info("process_groq function started")
@@ -126,13 +133,6 @@ async def process_groq(txt_dir, json_dir):
 
         # Add a delay between requests to avoid hitting rate limits
         # await asyncio.sleep(delay)  # Adjust the delay (in seconds) as needed
-
-
-
-@application.route('/')
-def home():
-    logging.info("Home route accessed")
-    return jsonify({"message": "Welcome to the Business Contract Analyzer!"}), 200
 
 
 # Getting .pdf and process them
@@ -361,6 +361,9 @@ async def organize_final_results(json_dir):
     except Exception as e:
         logging.error(f"Error organizing final results: {e}")
         raise
+
+###################################################################################################
+# Business Contract Analyzer ######################################################################
 
 
 if __name__ == '__main__':
