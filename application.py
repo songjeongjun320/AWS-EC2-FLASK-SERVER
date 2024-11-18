@@ -1,35 +1,110 @@
-import os
+from supabase import create_client, Client
+from flask import Flask, request, jsonify
+from dotenv import load_dotenv
+from flask_cors import CORS
+from groq import Groq
+import pandas as pd
 import pdfplumber
 import tempfile
 import logging
-import pandas as pd
-import json
-from flask import Flask, request, jsonify
-from flask_cors import CORS
 import asyncio
+import json
+import os
 import time
-from groq import Groq  # Assuming you have a Groq Python SDK; install if needed
-from dotenv import load_dotenv
-
+from os import getenv
 
 application = Flask(__name__)
 
-# CORS 설정 추가
-CORS(application, resources={r"/*": {"origins": "*"}})
+# CORS 설정
+CORS(application, resources={
+    r"/*": {
+        "origins": [
+            "http://localhost:3000",
+            "https://asu-furi-project.vercel.app",
+            "https://asu-furi-project-git-main-jun-songs-projects.vercel.app",
+            "https://asu-furi-project-lyjc2ohag-jun-songs-projects.vercel.app",
+            "https://business-contract-analyzer.vercel.app",
+            "https://business-contract-analyzer-git-main-jun-songs-projects.vercel.app",
+            "https://business-contract-analyzer-defr8w5d8-jun-songs-projects.vercel.app"
+        ]
+    }
+})
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='--Log: %(message)s')
 load_dotenv()  # Load environment variables
 logging.basicConfig(level=logging.INFO)
 
+# Supabase URL & Key
+SUPABASE_URL = getenv("SUPABASE_URL")
+SUPABASE_KEY = getenv("SUPABASE_ANON_KEY")
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
 @application.route('/')
 def home():
     logging.info("Home route accessed")
     return jsonify({"message": "Welcome to the Jun's All project's backend Server!!"}), 200
 
+
+###################################################################################################
+# YMS Project #####################################################################################
+import os
+
+@application.route('/process_yolo', methods=['POST'])
+def process_yolo():
+    video_name = request.form.get('video_name')
+    logging.info(f"LOG-- : {video_name}")
+
+    if not video_name:
+        return jsonify({"error": "No video name provided"}), 400
+
+    try:
+        # 비디오 다운로드
+        bucket_name = getenv("STORAGE_BUCKET")
+        local_path = download_video(bucket_name, video_name)
+
+        # YOLO 처리 이부분 하자.
+        logging.info("YOLO SHOULD BE PROCESSED HERE")
+
+        # 비디오 삭제
+        if os.path.exists(local_path):
+            os.remove(local_path)
+            logging.info(f"Video file {local_path} deleted successfully.")
+        else:
+            logging.warning(f"Video file {local_path} does not exist, skipping deletion.")
+
+        result = f"Processed video: {video_name}"  # Example result
+        return result, 200
+
+    except Exception as e:
+        logging.error(f"Error processing video: {e}")
+        return jsonify({"error": str(e)}), 500
+
+
+def download_video(bucket_name, file_path):
+    """
+    Download the video from SUPABASE Storage
+    """
+    try:
+        # Supabase 스토리지에서 파일 다운로드
+        response = supabase.storage.from_(bucket_name).download(file_path)
+        
+        # 다운로드된 파일을 /tmp 디렉토리에 저장
+        local_path = f"/tmp/{file_path.split('/')[-1]}"  # 파일명만 추출하여 저장 경로 설정
+        with open(local_path, "wb") as file:
+            file.write(response)  # response는 파일 내용 (bytes)
+        
+        logging.info(f"File downloaded successfully to {local_path}")
+        return local_path  # 저장된 로컬 경로 반환
+
+    except Exception as e:
+        logging.error(f"Failed to download file: {e}")
+        raise Exception(f"Error downloading file: {str(e)}")
+
+
 ###################################################################################################
 # Business Contract Analyzer ######################################################################
-# groq API 호출
+# groq API
 async def process_groq(txt_dir, json_dir):
     logging.info("process_groq function started")
 
