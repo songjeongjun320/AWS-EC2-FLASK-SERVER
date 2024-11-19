@@ -1,6 +1,5 @@
 from datetime import datetime
 from dotenv import load_dotenv
-import schedule
 import time
 import os
 import boto3
@@ -77,13 +76,13 @@ def job() -> None:
         time.sleep(1)  # Adjust sleep time as needed
 
 # It will return 
-def read_cntr_number_region(video_path, folder_name) -> str:
+def read_cntr_number_region(video_path) -> str:
     # Example weights and configuration
     weight = "./runs/train/TruckNumber_yolov5s_results34/weights/best.pt"
     conf_threshold = 0.5
 
     # Run detection using your custom detect module
-    max_conf_img_path = detect.run(weights=weight, source=video_path, conf_thres=conf_threshold, name=folder_name)
+    max_conf_img_path = detect.run(weights=weight, source=video_path, conf_thres=conf_threshold)
     print("Detection Completed at: ", datetime.now())
     print("The most confident img path: ", max_conf_img_path)
     return max_conf_img_path
@@ -137,22 +136,10 @@ def read_result_from_Textract(response) -> List[str]:
     return output
 
 
-# Main loop to run the scheduler
-def main() -> None:
-    file_extension = os.path.splitext(new_file)[1]
-    
-    # Check if the file is a video (.mp4)
-    if file_extension == ".mp4":
-        video_path = os.path.join(folder_path, new_file)
-        time.sleep(1)  # Optional delay before processing
-        
-        # Call your function to process the video
-        max_conf_img_path = read_cntr_number_region(video_path, current_date)
-        if max_conf_img_path == "":
-            LOGGER.info(f"NO DETECTION - {new_file}")
-        response = send_to_AWS_Textract(max_conf_img_path)
-        read_result_from_Textract(response)
-
+# Main function to handle the folder or file
+def main(video_path: str="C:/Users/frank/Desktop/flask_server/sample.mp4") -> None:
+    LOGGER.info(f"Processing single video file: {video_path}")
+    read_cntr_number_region(video_path)
 
 if __name__ == "__main__":
     main()
