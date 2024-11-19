@@ -93,7 +93,7 @@ def configure() -> None:
     load_dotenv()
 
 def get_acct() -> Tuple[str, str, str]:
-    area = os.getenv('textract_area')
+    area = os.getenv('TEXTRACT_AREA')
     access_id = os.getenv('access_id')
     access_key = os.getenv('access_key')
     return area, access_id, access_key
@@ -139,65 +139,20 @@ def read_result_from_Textract(response) -> List[str]:
 
 # Main loop to run the scheduler
 def main() -> None:
-    # Define the path where the CCTV videos will be downloaded
-    print("\n\n=============================================================")
-    print("C:\\Users\\frank\\OneDrive\\Desktop\\Docker")
-    print("--- Find CCTV Video downloaded folder ---")
-    print("Path to watch CCTV: ")
-    path = input().strip()  # Get path from user input
-    print("=============================================================")
-    print("Ready to Run - YOLO_Engine")
+    file_extension = os.path.splitext(new_file)[1]
+    
+    # Check if the file is a video (.mp4)
+    if file_extension == ".mp4":
+        video_path = os.path.join(folder_path, new_file)
+        time.sleep(1)  # Optional delay before processing
+        
+        # Call your function to process the video
+        max_conf_img_path = read_cntr_number_region(video_path, current_date)
+        if max_conf_img_path == "":
+            LOGGER.info(f"NO DETECTION - {new_file}")
+        response = send_to_AWS_Textract(max_conf_img_path)
+        read_result_from_Textract(response)
 
-    while True:
-        schedule.run_pending()
-        current_date = datetime.now().strftime("%m%d%Y")
-        folder_path = os.path.join(path, current_date)
-        
-        # Create folder if it doesn't exist
-        if not os.path.isdir(folder_path):
-            os.mkdir(folder_path)
-        
-        previous_files = os.listdir(folder_path)
-        
-        while True:
-            now = datetime.now().strftime("%m%d%Y")
-            
-            # Check if date has changed to break out of the loop
-            if now != current_date:
-                print("Date changed: ", now)
-                break
-            
-            # Retrieve list of files in the folder
-            current_files = os.listdir(folder_path)
-            
-            # Detect new files added since last check
-            if len(current_files) > len(previous_files):
-                new_files = list(set(current_files) - set(previous_files))
-                print("New File(s): ", new_files)
-                
-                # Process each new video file
-                for new_file in new_files:
-                    print("Processing File: ", new_file)
-                    file_extension = os.path.splitext(new_file)[1]
-                    
-                    # Check if the file is a video (.mp4)
-                    if file_extension == ".mp4":
-                        video_path = os.path.join(folder_path, new_file)
-                        time.sleep(1)  # Optional delay before processing
-                        
-                        # Call your function to process the video
-                        max_conf_img_path = read_cntr_number_region(video_path, current_date)
-                        if max_conf_img_path == "":
-                            LOGGER.info(f"NO DETECTION - {new_file}")
-                        response = send_to_AWS_Textract(max_conf_img_path)
-                        read_result_from_Textract(response)
-                    else:
-                        continue
-            
-            # Update the list of files for the next iteration
-            previous_files = current_files
-            
-            time.sleep(1)  # Adjust sleep time as needed
 
 if __name__ == "__main__":
     main()
