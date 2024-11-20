@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import time
 import os
 import boto3
-import detect  # Assuming detect is a custom module you've implemented
+from yolo import detect  # Assuming detect is a custom module you've implemented
 import logging
 
 # Logger
@@ -23,58 +23,6 @@ from typing import List, Tuple
 # path for CCTV video files
 path: str = ""
 
-# Function to perform the job
-def job() -> None:
-    dateformat = "%m%d%Y"
-    current_date = datetime.now().strftime(dateformat)  # Current date in format 01012024
-    folder_path = os.path.join(path, current_date)  # path/01012024
-
-    # Create folder if it doesn't exist
-    if not os.path.isdir(folder_path):
-        os.mkdir(folder_path)
-
-    previous_files = os.listdir(folder_path)
-
-    # Watch for changes in the specified folder
-    while True:
-        now = datetime.now().strftime(dateformat)
-
-        # Check if date has changed to break out of the loop
-        if now != current_date:
-            print("Date changed: ", now)
-            break
-
-        # Retrieve list of files in the folder
-        current_files = os.listdir(folder_path)
-
-        print("current ", current_files)
-        print("previous ", previous_files)
-
-        # Detect new files added since last check
-        if len(current_files) > len(previous_files):
-            new_files = list(set(current_files) - set(previous_files))
-            print("New File(s): ", new_files)
-
-            # Process each new video file
-            for new_file in new_files:
-                print("Processing File: ", new_file)
-                file_extension = os.path.splitext(new_file)[1]
-
-                # Check if the file is a video (.mp4)
-                if file_extension == ".mp4":
-                    video_path = os.path.join(folder_path, new_file)
-                    time.sleep(1)  # Optional delay before processing
-
-                    # Call your function to process the video
-                    read_cntr_number_region(video_path, current_date)
-                else:
-                    continue
-
-        # Update the list of files for the next iteration
-        previous_files = current_files
-
-        time.sleep(1)  # Adjust sleep time as needed
-
 # It will return 
 def read_cntr_number_region(video_path) -> str:
     # Example weights and configuration
@@ -89,16 +37,18 @@ def read_cntr_number_region(video_path) -> str:
 
 # AWS Textrac #
 def configure() -> None:
-    load_dotenv()
+    dotenv_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '.env')
+    load_dotenv(dotenv_path)
 
 def get_acct() -> Tuple[str, str, str]:
     area = os.getenv('TEXTRACT_AREA')
-    access_id = os.getenv('access_id')
-    access_key = os.getenv('access_key')
+    access_id = os.getenv('ACCESS_ID')
+    access_key = os.getenv('ACCESS_KEY')
+    print(area, access_id, access_key)
     return area, access_id, access_key
 
 # Extract the text from the cutted image file
-def send_to_AWS_Textract(max_conf_img_path) -> dict:
+def send_to_AWS_Textract(max_conf_img_path) -> List[str]:
     # connect AWS Textract acct
     area, access_id, access_key = get_acct()
     try:
@@ -119,8 +69,9 @@ def send_to_AWS_Textract(max_conf_img_path) -> dict:
 
     # Sending img to Textract
     response = textract.detect_document_text(Document={'Bytes': imageBytes})
-            
-    return response
+    print("AWS Textract Response:", response)
+    extracted_result = read_result_from_Textract(response)        
+    return extracted_result
 
 def read_result_from_Textract(response) -> List[str]:
     print("Image read by Textract: ")
