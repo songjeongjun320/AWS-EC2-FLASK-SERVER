@@ -1,4 +1,4 @@
-from yolo.main import read_cntr_number_region, send_to_AWS_Textract  # YOLO의 처리 함수
+# from yolo.main import read_cntr_number_region, send_to_AWS_Textract  # YOLO의 처리 함수
 from supabase import create_client, Client
 from flask import Flask, request, jsonify
 from dotenv import load_dotenv
@@ -49,59 +49,59 @@ def home():
 
 ###################################################################################################
 # YMS Project #####################################################################################
-@application.route('/process_yolo', methods=['POST'])
-def process_yolo():
-    video_name = request.form.get('video_name')
-    logging.info(f"LOG-- Received video: {video_name}")
+# @application.route('/process_yolo', methods=['POST'])
+# def process_yolo():
+#     video_name = request.form.get('video_name')
+#     logging.info(f"LOG-- Received video: {video_name}")
 
-    if not video_name:
-        return jsonify({"error": "No video name provided"}), 400
+#     if not video_name:
+#         return jsonify({"error": "No video name provided"}), 400
 
-    try:
-        # 비디오 다운로드
-        bucket_name = os.getenv("STORAGE_BUCKET")
-        local_path = download_video(bucket_name, video_name)
-        logging.info(f"LOG-- Video downloaded to: {local_path}")
+#     try:
+#         # 비디오 다운로드
+#         bucket_name = os.getenv("STORAGE_BUCKET")
+#         local_path = download_video(bucket_name, video_name)
+#         logging.info(f"LOG-- Video downloaded to: {local_path}")
 
-        # YOLO 처리 함수 호출
-        logging.info("Running YOLO model on the downloaded video.")
-        extracted_result = read_cntr_number_region(local_path)  # YOLO 결과 이미지 경로 반환
-        logging.info(f"LOG-- Extracted Container Number: {extracted_result}")
+#         # YOLO 처리 함수 호출
+#         logging.info("Running YOLO model on the downloaded video.")
+#         extracted_result = read_cntr_number_region(local_path)  # YOLO 결과 이미지 경로 반환
+#         logging.info(f"LOG-- Extracted Container Number: {extracted_result}")
 
-        # 비디오 삭제
-        if os.path.exists(local_path):
-            os.remove(local_path)
-            logging.info(f"LOG-- Video file {local_path} deleted successfully.")
-        else:
-            logging.warning(f"LOG-- Video file {local_path} does not exist, skipping deletion.")
+#         # 비디오 삭제
+#         if os.path.exists(local_path):
+#             os.remove(local_path)
+#             logging.info(f"LOG-- Video file {local_path} deleted successfully.")
+#         else:
+#             logging.warning(f"LOG-- Video file {local_path} does not exist, skipping deletion.")
 
-        return jsonify({"message": "Processed video successfully", "extracted_result": extracted_result}), 200
+#         return jsonify({"message": "Processed video successfully", "extracted_result": extracted_result}), 200
 
-    except Exception as e:
-        logging.error(f"LOG-- Error processing video: {e}")
-        return jsonify({"error": str(e)}), 500
+#     except Exception as e:
+#         logging.error(f"LOG-- Error processing video: {e}")
+#         return jsonify({"error": str(e)}), 500
 
 
-def download_video(bucket_name, file_path):
-    """
-    Download the video from SUPABASE Storage
-    """
-    supabase_yms = createSupabaseClient_YMS()
-    try:
-        # Supabase 스토리지에서 파일 다운로드
-        response = supabase_yms.storage.from_(bucket_name).download(file_path)
+# def download_video(bucket_name, file_path):
+#     """
+#     Download the video from SUPABASE Storage
+#     """
+#     supabase_yms = createSupabaseClient_YMS()
+#     try:
+#         # Supabase 스토리지에서 파일 다운로드
+#         response = supabase_yms.storage.from_(bucket_name).download(file_path)
         
-        # 다운로드된 파일을 /tmp 디렉토리에 저장
-        local_path = f"/tmp/{file_path.split('/')[-1]}"  # 파일명만 추출하여 저장 경로 설정
-        with open(local_path, "wb") as file:
-            file.write(response)  # response는 파일 내용 (bytes)
+#         # 다운로드된 파일을 /tmp 디렉토리에 저장
+#         local_path = f"/tmp/{file_path.split('/')[-1]}"  # 파일명만 추출하여 저장 경로 설정
+#         with open(local_path, "wb") as file:
+#             file.write(response)  # response는 파일 내용 (bytes)
         
-        logging.info(f"File downloaded successfully to {local_path}")
-        return local_path  # 저장된 로컬 경로 반환
+#         logging.info(f"File downloaded successfully to {local_path}")
+#         return local_path  # 저장된 로컬 경로 반환
 
-    except Exception as e:
-        logging.error(f"Failed to download file: {e}")
-        raise Exception(f"Error downloading file: {str(e)}")
+#     except Exception as e:
+#         logging.error(f"Failed to download file: {e}")
+#         raise Exception(f"Error downloading file: {str(e)}")
 
 
 ###################################################################################################
