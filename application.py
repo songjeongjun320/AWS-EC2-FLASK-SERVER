@@ -20,15 +20,7 @@ application = Flask(__name__)
 # CORS 설정
 CORS(application, resources={
     r"/*": {
-        "origins": [
-            "http://localhost:3000",
-            "https://asu-furi-project.vercel.app",
-            "https://asu-furi-project-git-main-jun-songs-projects.vercel.app",
-            "https://asu-furi-project-lyjc2ohag-jun-songs-projects.vercel.app",
-            "https://business-contract-analyzer.vercel.app",
-            "https://business-contract-analyzer-git-main-jun-songs-projects.vercel.app",
-            "https://business-contract-analyzer-defr8w5d8-jun-songs-projects.vercel.app"
-        ]
+        "origins": "*"
     }
 })
 
