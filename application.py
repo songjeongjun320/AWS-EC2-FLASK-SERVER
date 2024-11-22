@@ -38,10 +38,17 @@ logging.basicConfig(level=logging.INFO, format='--Log: %(message)s')
 load_dotenv()  # Load environment variables
 logging.basicConfig(level=logging.INFO)
 
-# Supabase URL & Key
-SUPABASE_URL = getenv("SUPABASE_URL")
-SUPABASE_KEY = getenv("SUPABASE_ANON_KEY")
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+def createSupabaseClient_YMS() -> Client:
+    supabase_url = os.getenv("SUPABASE_URL_YMS")
+    supabase_key = os.getenv("SUPABASE_SERVICE_ROLE_YMS")
+    
+    if not supabase_url or not supabase_key:
+        raise ValueError("Supabase URL or Anon Key is missing. Check your environment variables.")
+    
+    supabase: Client = create_client(supabase_url, supabase_key)
+    return supabase
+
 
 @application.route('/')
 def home():
@@ -69,16 +76,16 @@ def process_yolo():
         max_conf_img_path = read_cntr_number_region(local_path)  # YOLO 결과 이미지 경로 반환
 
         # 텍스트 추출 및 처리 (AWS Textract 호출 등 추가 기능 구현 가능)
-        logging.info(f"Most confident image path: {max_conf_img_path}")
-        extracted_result = send_to_AWS_Textract(max_conf_img_path)
-        logging.info(f"Extracted Container Number: {extracted_result}")
+        logging.info(f"LOG-- Most confident image path: {max_conf_img_path}")
+        extracted_result = send_to_AWS_Textract(max_conf_img_path, driver_name="")
+        logging.info(f"LOG-- Extracted Container Number: {extracted_result}")
 
         # 비디오 삭제
         if os.path.exists(local_path):
             os.remove(local_path)
-            logging.info(f"Video file {local_path} deleted successfully.")
+            logging.info(f"LOG-- Video file {local_path} deleted successfully.")
         else:
-            logging.warning(f"Video file {local_path} does not exist, skipping deletion.")
+            logging.warning(f"LOG-- Video file {local_path} does not exist, skipping deletion.")
 
         return jsonify({"message": "Processed video successfully", "image_path": max_conf_img_path}), 200
 
@@ -91,9 +98,10 @@ def download_video(bucket_name, file_path):
     """
     Download the video from SUPABASE Storage
     """
+    supabase_yms = createSupabaseClient_YMS()
     try:
         # Supabase 스토리지에서 파일 다운로드
-        response = supabase.storage.from_(bucket_name).download(file_path)
+        response = supabase_yms.storage.from_(bucket_name).download(file_path)
         
         # 다운로드된 파일을 /tmp 디렉토리에 저장
         local_path = f"/tmp/{file_path.split('/')[-1]}"  # 파일명만 추출하여 저장 경로 설정
