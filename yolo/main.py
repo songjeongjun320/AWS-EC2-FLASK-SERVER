@@ -9,13 +9,10 @@ import sys
 import re
 import os
 
-
 # Logger
 logging.basicConfig(level=logging.INFO)
 LOGGER = logging.getLogger(__name__)
 
-sys.path.append(os.path.abspath(os.path.dirname(__file__)))
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'yolo')))
 
 # Setting the Filehandler
 log_file = 'log.txt'
@@ -27,18 +24,6 @@ LOGGER.addHandler(file_handler)
 
 # path for CCTV video files
 path: str = ""
-
-# It will return 
-def read_cntr_number_region(video_path) -> str:
-    # Example weights and configuration
-    weight = "./runs/train/TruckNumber_yolov5s_results34/weights/best.pt"
-    conf_threshold = 0.5
-
-    # Run detection using your custom detect module
-    max_conf_img_path = yolo.detect.run(weights=weight, source=video_path, conf_thres=conf_threshold)
-    print("Detection Completed at: ", datetime.now())
-    print("The most confident img path: ", max_conf_img_path)
-    return max_conf_img_path
 
 # AWS Textrac #
 def configure() -> None:
@@ -173,7 +158,7 @@ def postNewRowToSupabase(extracted_result, driver_name):
     
 def postNewImgToSupabase(max_conf_img_path, new_id):
     client = createSupabaseClient_YMS()
-    storage_bucket = "cntr_imgs"  # Supabase Storage 버킷 이름
+    storage_bucket = os.getenv("STORAGE_IMG_BUCKET")  # Supabase Storage 버킷 이름
     file_name = f"{new_id}.jpg"  # 파일 이름은 row의 id 기반으로 설정
 
     try:
