@@ -48,7 +48,7 @@ def read_cntr_number_region(video_path) -> str:
     conf_threshold = 0.5
 
     # Run detection using your custom detect module
-    max_conf_img_path = run(weights=weight, source=video_path, conf_thres=conf_threshold)
+    max_conf_img_path = detect.run(weights=weight, source=video_path, conf_thres=conf_threshold)
     print("Detection Completed at: ", datetime.now())
     print("The most confident img path: ", max_conf_img_path)
 
