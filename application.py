@@ -72,11 +72,7 @@ def process_yolo():
 
         # YOLO 처리 함수 호출
         logging.info("Running YOLO model on the downloaded video.")
-        max_conf_img_path = read_cntr_number_region(local_path)  # YOLO 결과 이미지 경로 반환
-
-        # 텍스트 추출 및 처리 (AWS Textract 호출 등 추가 기능 구현 가능)
-        logging.info(f"LOG-- Most confident image path: {max_conf_img_path}")
-        extracted_result = send_to_AWS_Textract(max_conf_img_path, driver_name="")
+        extracted_result = read_cntr_number_region(local_path)  # YOLO 결과 이미지 경로 반환
         logging.info(f"LOG-- Extracted Container Number: {extracted_result}")
 
         # 비디오 삭제
@@ -86,7 +82,7 @@ def process_yolo():
         else:
             logging.warning(f"LOG-- Video file {local_path} does not exist, skipping deletion.")
 
-        return jsonify({"message": "Processed video successfully", "image_path": max_conf_img_path}), 200
+        return jsonify({"message": "Processed video successfully", "extracted_result": extracted_result}), 200
 
     except Exception as e:
         logging.error(f"Error processing video: {e}")

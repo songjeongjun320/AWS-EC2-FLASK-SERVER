@@ -79,6 +79,7 @@ def send_to_AWS_Textract(max_conf_img_path, driver_name) -> str:
         response = textract.detect_document_text(Document={'Bytes': imageBytes})
         print("AWS Textract Response:", response)
         extracted_result = read_result_from_Textract(response)
+        print("read_result_from_Textract(response): ", extracted_result)
 
         # Add new row to Supabase table
         try:
@@ -92,13 +93,14 @@ def send_to_AWS_Textract(max_conf_img_path, driver_name) -> str:
         except Exception as e:
             raise Exception(f"Failed to upload image to Supabase storage: {e}")
 
-        # If all processes succeed, return the extracted result
+        # Return the extracted result (processed text, not a file path)
         return extracted_result
 
     except Exception as e:
         # Log the error and re-raise it for higher-level handling
         print(f"Error in send_to_AWS_Textract: {e}")
         raise
+
 
 # Send the img to AWS Textract and get the result
 def read_result_from_Textract(response)-> str:
@@ -157,22 +159,31 @@ def postNewRowToSupabase(extracted_result, driver_name):
 
     
 def postNewImgToSupabase(max_conf_img_path, new_id):
+    logging.info("Starting image upload to Supabase storage...")
     client = createSupabaseClient_YMS()
     storage_bucket = os.getenv("STORAGE_IMG_BUCKET")  # Supabase Storage 버킷 이름
     file_name = f"{new_id}.jpg"  # 파일 이름은 row의 id 기반으로 설정
 
+    logging.info(f"Target bucket: {storage_bucket}, file name: {file_name}")
+
     try:
         # 이미지 파일 읽기
+        logging.info(f"Reading image file: {max_conf_img_path}")
         with open(max_conf_img_path, "rb") as file:
-            response = client.storage().from_(storage_bucket).upload(file_name, file)
+            file_content = file.read()  # 파일 내용을 읽기
+            response = client.storage.from_(storage_bucket).upload(file_name, file_content)
 
-        # 응답 확인: Supabase 클라이언트에서 제공하는 response.error를 사용
-        if response.error:
-            raise Exception(f"Upload error: {response.error.message}")
+        # 응답 확인: response가 성공적으로 반환되었는지 확인
+        if not response.path:
+            raise Exception(f"Upload failed, no path returned. Response: {response}")
 
         # 업로드 성공 로그
-        logging.info(f"LOG-- Image uploaded successfully: {file_name}")
+        logging.info(f"Image uploaded successfully: {file_name} to bucket {storage_bucket}")
+        logging.info(f"Uploaded file path: {response.full_path}")
 
+    except FileNotFoundError:
+        logging.error(f"Image file not found: {max_conf_img_path}")
+        raise Exception(f"Image file not found: {max_conf_img_path}")
     except Exception as e:
         logging.error(f"Error uploading image to Supabase storage: {e}")
         raise Exception(f"Failed to upload image to Supabase storage: {e}")
