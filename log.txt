@@ -6714,3 +6714,1088 @@ video 1/1 (162/322) C:\tmp\PHX-CKOUT-115019-115050.mp4: 384x640 (no detections),
 video 1/1 (163/322) C:\tmp\PHX-CKOUT-115019-115050.mp4: 384x640 (no detections), 97.2ms
 video 1/1 (164/322) C:\tmp\PHX-CKOUT-115019-115050.mp4: 384x640 (no detections), 75.8ms
 video 1/1 (165/322) C:\tmp\PHX-CKOUT-115019-115050.mp4: 384x640 (no detections), 84.2ms
+video 1/1 (1/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 97.3ms
+video 1/1 (2/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 90.4ms
+video 1/1 (3/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 69.5ms
+video 1/1 (4/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 69.7ms
+video 1/1 (5/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 65.8ms
+video 1/1 (6/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 83.5ms
+video 1/1 (7/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 81.0ms
+video 1/1 (8/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 77.5ms
+video 1/1 (9/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 71.6ms
+video 1/1 (10/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 65.6ms
+video 1/1 (11/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 66.9ms
+video 1/1 (12/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 66.0ms
+video 1/1 (13/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 64.6ms
+video 1/1 (14/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 64.9ms
+video 1/1 (15/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 61.5ms
+video 1/1 (16/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 63.7ms
+video 1/1 (17/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 63.9ms
+video 1/1 (18/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 65.9ms
+video 1/1 (19/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 61.8ms
+video 1/1 (20/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 67.1ms
+video 1/1 (21/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 69.7ms
+video 1/1 (22/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 123.1ms
+video 1/1 (23/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 74.1ms
+video 1/1 (24/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 77.7ms
+video 1/1 (25/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 110.8ms
+video 1/1 (26/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 75.9ms
+video 1/1 (27/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 84.7ms
+video 1/1 (28/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 78.0ms
+video 1/1 (29/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 92.2ms
+video 1/1 (30/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 85.2ms
+video 1/1 (31/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 84.3ms
+video 1/1 (32/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 85.3ms
+video 1/1 (33/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 74.8ms
+video 1/1 (34/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 70.0ms
+video 1/1 (35/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 64.6ms
+video 1/1 (36/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 67.2ms
+video 1/1 (37/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 73.1ms
+video 1/1 (38/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 65.6ms
+video 1/1 (39/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 66.8ms
+video 1/1 (40/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 64.5ms
+video 1/1 (41/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 60.3ms
+video 1/1 (42/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 58.5ms
+video 1/1 (43/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 61.7ms
+video 1/1 (44/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 66.8ms
+video 1/1 (45/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 63.3ms
+video 1/1 (46/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 62.3ms
+video 1/1 (47/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 62.8ms
+video 1/1 (48/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 60.9ms
+video 1/1 (49/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 68.0ms
+video 1/1 (50/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 62.2ms
+video 1/1 (51/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 62.6ms
+video 1/1 (52/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 62.1ms
+video 1/1 (53/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 58.5ms
+video 1/1 (54/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 60.9ms
+video 1/1 (55/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 69.0ms
+video 1/1 (56/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 60.9ms
+video 1/1 (57/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 67.6ms
+video 1/1 (58/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 61.0ms
+video 1/1 (59/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 62.6ms
+video 1/1 (60/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 59.7ms
+video 1/1 (61/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 63.5ms
+video 1/1 (62/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 65.3ms
+video 1/1 (63/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 65.4ms
+video 1/1 (64/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 61.8ms
+video 1/1 (65/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 65.4ms
+video 1/1 (66/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 69.6ms
+video 1/1 (67/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 65.9ms
+video 1/1 (68/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 63.3ms
+video 1/1 (69/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 63.8ms
+video 1/1 (70/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 58.3ms
+CONFIDENCE : 86.25121307373047 %
+video 1/1 (71/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 66.3ms
+CONFIDENCE : 91.38841247558594 %
+video 1/1 (72/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 64.4ms
+CONFIDENCE : 92.88284301757812 %
+video 1/1 (73/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 67.8ms
+CONFIDENCE : 92.89270782470703 %
+video 1/1 (74/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 55.3ms
+CONFIDENCE : 91.41484832763672 %
+video 1/1 (75/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 77.2ms
+CONFIDENCE : 93.5343017578125 %
+video 1/1 (76/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 66.9ms
+CONFIDENCE : 94.00882720947266 %
+video 1/1 (77/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 66.2ms
+CONFIDENCE : 93.8016586303711 %
+video 1/1 (78/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 66.8ms
+CONFIDENCE : 91.00398254394531 %
+video 1/1 (79/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 65.1ms
+CONFIDENCE : 93.32828521728516 %
+video 1/1 (80/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 61.5ms
+CONFIDENCE : 93.2642822265625 %
+video 1/1 (81/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 66.0ms
+CONFIDENCE : 94.0465316772461 %
+video 1/1 (82/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 63.5ms
+CONFIDENCE : 92.55441284179688 %
+video 1/1 (83/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 69.6ms
+CONFIDENCE : 92.7580795288086 %
+video 1/1 (84/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 62.8ms
+CONFIDENCE : 93.7778091430664 %
+video 1/1 (85/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 60.3ms
+CONFIDENCE : 93.92945861816406 %
+video 1/1 (86/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 79.1ms
+CONFIDENCE : 94.42658996582031 %
+video 1/1 (87/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 197.3ms
+CONFIDENCE : 93.21648406982422 %
+video 1/1 (88/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 102.2ms
+CONFIDENCE : 89.53396606445312 %
+video 1/1 (89/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 120.8ms
+CONFIDENCE : 92.18280029296875 %
+video 1/1 (90/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 86.0ms
+CONFIDENCE : 93.13993835449219 %
+video 1/1 (91/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 76.4ms
+CONFIDENCE : 93.88984680175781 %
+video 1/1 (92/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 77.1ms
+CONFIDENCE : 93.7327880859375 %
+video 1/1 (93/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 77.0ms
+CONFIDENCE : 93.95138549804688 %
+video 1/1 (94/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 75.1ms
+CONFIDENCE : 93.69221496582031 %
+video 1/1 (95/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 73.4ms
+CONFIDENCE : 93.41229248046875 %
+video 1/1 (96/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 71.6ms
+CONFIDENCE : 92.60530090332031 %
+video 1/1 (97/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 73.1ms
+CONFIDENCE : 93.42597961425781 %
+video 1/1 (98/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 67.3ms
+CONFIDENCE : 94.13568878173828 %
+video 1/1 (99/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 75.4ms
+CONFIDENCE : 94.65065002441406 %
+video 1/1 (100/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 66.2ms
+CONFIDENCE : 93.82398986816406 %
+video 1/1 (101/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 64.8ms
+CONFIDENCE : 91.05400085449219 %
+video 1/1 (102/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 67.9ms
+CONFIDENCE : 82.86399841308594 %
+video 1/1 (103/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 1 Container_Number, 63.2ms
+video 1/1 (104/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 62.3ms
+video 1/1 (105/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 75.3ms
+video 1/1 (106/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 86.5ms
+video 1/1 (107/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 78.5ms
+video 1/1 (108/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 76.9ms
+video 1/1 (109/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 77.3ms
+video 1/1 (110/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 70.2ms
+video 1/1 (111/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 72.8ms
+video 1/1 (112/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 90.1ms
+video 1/1 (113/300) C:\tmp\PHX-CKIN-123017-123027.mp4: 384x640 (no detections), 78.8ms
+video 1/1 (1/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 96.2ms
+video 1/1 (2/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.8ms
+video 1/1 (3/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.3ms
+video 1/1 (4/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 92.6ms
+video 1/1 (5/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 78.6ms
+video 1/1 (6/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 77.6ms
+video 1/1 (7/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 91.8ms
+video 1/1 (8/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 97.9ms
+video 1/1 (9/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 93.9ms
+video 1/1 (10/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 92.2ms
+video 1/1 (11/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 77.7ms
+video 1/1 (12/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.4ms
+video 1/1 (13/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.7ms
+video 1/1 (14/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.6ms
+video 1/1 (15/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.4ms
+video 1/1 (16/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.4ms
+video 1/1 (17/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.0ms
+video 1/1 (18/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.2ms
+video 1/1 (19/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.9ms
+video 1/1 (20/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 78.2ms
+video 1/1 (21/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.1ms
+video 1/1 (22/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.9ms
+video 1/1 (23/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.2ms
+video 1/1 (24/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.0ms
+video 1/1 (25/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.2ms
+video 1/1 (26/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.5ms
+video 1/1 (27/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.7ms
+video 1/1 (28/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.2ms
+video 1/1 (29/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.7ms
+video 1/1 (30/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.3ms
+video 1/1 (31/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.8ms
+video 1/1 (32/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.9ms
+video 1/1 (33/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 89.5ms
+video 1/1 (34/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 113.4ms
+video 1/1 (35/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 101.7ms
+video 1/1 (36/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 141.0ms
+video 1/1 (37/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 89.7ms
+video 1/1 (38/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.5ms
+video 1/1 (39/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 79.0ms
+video 1/1 (40/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.3ms
+video 1/1 (41/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.9ms
+video 1/1 (42/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.7ms
+video 1/1 (43/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.4ms
+video 1/1 (44/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 88.4ms
+video 1/1 (45/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 83.0ms
+video 1/1 (46/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.4ms
+video 1/1 (47/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.6ms
+video 1/1 (48/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.0ms
+video 1/1 (49/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.8ms
+video 1/1 (50/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.2ms
+video 1/1 (51/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.2ms
+video 1/1 (52/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 79.5ms
+video 1/1 (53/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 123.1ms
+video 1/1 (54/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.0ms
+video 1/1 (55/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.2ms
+video 1/1 (56/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.4ms
+video 1/1 (57/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.6ms
+video 1/1 (58/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 82.7ms
+video 1/1 (59/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 88.7ms
+video 1/1 (60/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.6ms
+video 1/1 (61/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.3ms
+video 1/1 (62/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.6ms
+video 1/1 (63/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.2ms
+video 1/1 (64/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.4ms
+video 1/1 (65/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.4ms
+video 1/1 (66/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.9ms
+video 1/1 (67/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.3ms
+video 1/1 (68/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.0ms
+video 1/1 (69/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.8ms
+video 1/1 (70/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.0ms
+video 1/1 (71/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.4ms
+video 1/1 (72/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.7ms
+video 1/1 (73/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.4ms
+video 1/1 (74/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.1ms
+video 1/1 (75/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.4ms
+video 1/1 (76/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.9ms
+video 1/1 (77/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.9ms
+video 1/1 (78/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.4ms
+video 1/1 (79/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.2ms
+video 1/1 (80/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.8ms
+video 1/1 (81/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.8ms
+video 1/1 (82/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.9ms
+video 1/1 (83/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.6ms
+video 1/1 (84/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.2ms
+video 1/1 (85/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.0ms
+video 1/1 (86/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.0ms
+video 1/1 (87/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.8ms
+video 1/1 (88/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.7ms
+video 1/1 (89/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.8ms
+video 1/1 (90/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 82.9ms
+video 1/1 (91/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 83.5ms
+video 1/1 (92/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.9ms
+video 1/1 (93/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.2ms
+video 1/1 (94/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 79.2ms
+video 1/1 (95/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.2ms
+video 1/1 (96/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.2ms
+video 1/1 (97/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 101.0ms
+video 1/1 (98/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.1ms
+video 1/1 (99/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.5ms
+video 1/1 (100/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.1ms
+video 1/1 (101/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.8ms
+video 1/1 (102/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.7ms
+video 1/1 (103/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 79.2ms
+video 1/1 (104/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.7ms
+video 1/1 (105/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.9ms
+video 1/1 (106/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.9ms
+video 1/1 (107/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 87.0ms
+video 1/1 (108/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 84.1ms
+video 1/1 (109/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 90.0ms
+video 1/1 (110/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 61.8ms
+video 1/1 (111/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.1ms
+video 1/1 (112/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.6ms
+video 1/1 (113/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.7ms
+video 1/1 (114/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 86.3ms
+video 1/1 (115/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 58.3ms
+video 1/1 (116/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.4ms
+video 1/1 (117/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.2ms
+video 1/1 (118/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.0ms
+video 1/1 (119/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.7ms
+video 1/1 (120/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.1ms
+video 1/1 (121/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.2ms
+video 1/1 (122/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 63.9ms
+video 1/1 (123/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.7ms
+video 1/1 (124/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.5ms
+video 1/1 (125/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.9ms
+video 1/1 (126/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.2ms
+video 1/1 (127/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.0ms
+video 1/1 (128/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.0ms
+video 1/1 (129/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.8ms
+video 1/1 (130/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.9ms
+video 1/1 (131/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.4ms
+video 1/1 (132/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.9ms
+video 1/1 (133/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.6ms
+video 1/1 (134/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 85.1ms
+video 1/1 (135/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.0ms
+video 1/1 (136/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.4ms
+video 1/1 (137/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.0ms
+video 1/1 (138/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.4ms
+video 1/1 (139/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.9ms
+video 1/1 (140/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.4ms
+video 1/1 (141/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.7ms
+video 1/1 (142/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.8ms
+video 1/1 (143/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.0ms
+video 1/1 (144/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.1ms
+video 1/1 (145/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.7ms
+video 1/1 (146/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 62.0ms
+video 1/1 (147/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.8ms
+video 1/1 (148/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.9ms
+video 1/1 (149/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.4ms
+video 1/1 (150/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.8ms
+video 1/1 (151/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.5ms
+video 1/1 (152/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.3ms
+video 1/1 (153/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.9ms
+video 1/1 (154/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.8ms
+video 1/1 (155/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.6ms
+video 1/1 (156/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 78.1ms
+video 1/1 (157/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.7ms
+video 1/1 (158/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.3ms
+video 1/1 (159/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.4ms
+video 1/1 (160/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.3ms
+video 1/1 (161/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.1ms
+video 1/1 (162/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.0ms
+video 1/1 (163/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.9ms
+video 1/1 (164/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.2ms
+video 1/1 (165/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.3ms
+video 1/1 (166/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.6ms
+video 1/1 (167/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.3ms
+video 1/1 (168/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.1ms
+video 1/1 (169/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 62.5ms
+video 1/1 (170/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.0ms
+video 1/1 (171/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 62.1ms
+video 1/1 (172/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 62.5ms
+video 1/1 (173/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.1ms
+video 1/1 (174/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.5ms
+video 1/1 (175/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.4ms
+video 1/1 (176/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.5ms
+video 1/1 (177/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.1ms
+video 1/1 (178/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 92.4ms
+video 1/1 (179/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 83.0ms
+video 1/1 (180/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 82.7ms
+video 1/1 (181/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 85.2ms
+video 1/1 (182/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.5ms
+video 1/1 (183/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 78.1ms
+video 1/1 (184/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 77.1ms
+video 1/1 (185/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.7ms
+video 1/1 (186/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.8ms
+video 1/1 (187/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.1ms
+video 1/1 (188/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.4ms
+video 1/1 (189/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 61.6ms
+video 1/1 (190/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 63.2ms
+video 1/1 (191/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.1ms
+video 1/1 (192/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.4ms
+video 1/1 (193/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.7ms
+video 1/1 (194/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.0ms
+video 1/1 (195/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.2ms
+video 1/1 (196/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.8ms
+video 1/1 (197/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.7ms
+video 1/1 (198/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.6ms
+video 1/1 (199/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.8ms
+video 1/1 (200/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 79.8ms
+video 1/1 (201/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.9ms
+video 1/1 (202/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 85.1ms
+video 1/1 (203/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.9ms
+video 1/1 (204/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 89.6ms
+video 1/1 (205/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.9ms
+video 1/1 (206/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 86.7ms
+video 1/1 (207/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 83.6ms
+video 1/1 (208/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 103.4ms
+video 1/1 (209/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 94.6ms
+video 1/1 (210/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 88.1ms
+video 1/1 (211/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 87.2ms
+video 1/1 (212/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 100.1ms
+video 1/1 (213/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 83.3ms
+video 1/1 (214/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 89.8ms
+video 1/1 (215/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 108.4ms
+video 1/1 (216/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 90.0ms
+video 1/1 (217/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 107.7ms
+video 1/1 (218/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.6ms
+video 1/1 (219/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.3ms
+video 1/1 (220/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.8ms
+video 1/1 (221/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.9ms
+video 1/1 (222/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.8ms
+video 1/1 (223/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.8ms
+video 1/1 (224/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 112.4ms
+video 1/1 (225/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 61.0ms
+video 1/1 (226/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 62.0ms
+video 1/1 (227/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.3ms
+CONFIDENCE : 86.25901794433594 %
+video 1/1 (228/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 67.7ms
+CONFIDENCE : 93.16168212890625 %
+video 1/1 (229/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 65.3ms
+CONFIDENCE : 76.61139678955078 %
+video 1/1 (230/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 63.7ms
+CONFIDENCE : 90.40823364257812 %
+video 1/1 (231/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 67.8ms
+CONFIDENCE : 92.09107208251953 %
+video 1/1 (232/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 65.3ms
+CONFIDENCE : 93.88865661621094 %
+video 1/1 (233/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 63.6ms
+CONFIDENCE : 92.61738586425781 %
+video 1/1 (234/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 68.5ms
+CONFIDENCE : 92.49799346923828 %
+video 1/1 (235/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 65.9ms
+CONFIDENCE : 91.59940338134766 %
+video 1/1 (236/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 70.0ms
+CONFIDENCE : 93.33990478515625 %
+video 1/1 (237/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 72.2ms
+CONFIDENCE : 90.77631378173828 %
+video 1/1 (238/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 89.7ms
+CONFIDENCE : 93.08220672607422 %
+video 1/1 (239/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 69.3ms
+CONFIDENCE : 93.22191619873047 %
+video 1/1 (240/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 77.5ms
+CONFIDENCE : 92.53981018066406 %
+video 1/1 (241/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 68.9ms
+CONFIDENCE : 94.55091094970703 %
+video 1/1 (242/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 76.2ms
+CONFIDENCE : 94.43292236328125 %
+video 1/1 (243/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 83.4ms
+CONFIDENCE : 92.1937255859375 %
+video 1/1 (244/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 72.7ms
+CONFIDENCE : 93.08756256103516 %
+video 1/1 (245/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 67.5ms
+CONFIDENCE : 93.68121337890625 %
+video 1/1 (246/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 66.8ms
+CONFIDENCE : 90.57740020751953 %
+video 1/1 (247/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 66.3ms
+CONFIDENCE : 93.198486328125 %
+video 1/1 (248/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 72.3ms
+CONFIDENCE : 93.79293823242188 %
+video 1/1 (249/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 63.6ms
+CONFIDENCE : 93.9807357788086 %
+video 1/1 (250/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 77.3ms
+CONFIDENCE : 93.65949249267578 %
+video 1/1 (251/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 83.9ms
+CONFIDENCE : 93.88936614990234 %
+video 1/1 (252/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 82.0ms
+CONFIDENCE : 94.71755981445312 %
+video 1/1 (253/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 60.3ms
+CONFIDENCE : 94.16969299316406 %
+video 1/1 (254/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 68.4ms
+CONFIDENCE : 92.3183822631836 %
+video 1/1 (255/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 72.2ms
+CONFIDENCE : 92.51646423339844 %
+video 1/1 (256/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 69.1ms
+CONFIDENCE : 93.3848648071289 %
+video 1/1 (257/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 65.1ms
+CONFIDENCE : 94.45943450927734 %
+video 1/1 (258/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 70.7ms
+CONFIDENCE : 91.94698333740234 %
+video 1/1 (259/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 65.3ms
+CONFIDENCE : 88.1133041381836 %
+video 1/1 (260/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 67.5ms
+CONFIDENCE : 85.09283447265625 %
+video 1/1 (261/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 67.4ms
+CONFIDENCE : 81.87967681884766 %
+video 1/1 (262/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 71.1ms
+CONFIDENCE : 58.72743225097656 %
+video 1/1 (263/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 71.0ms
+CONFIDENCE : 54.56631088256836 %
+video 1/1 (264/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 76.6ms
+CONFIDENCE : 51.459495544433594 %
+video 1/1 (265/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 78.1ms
+video 1/1 (266/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.6ms
+video 1/1 (267/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.7ms
+video 1/1 (268/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.4ms
+video 1/1 (269/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.5ms
+video 1/1 (270/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.4ms
+video 1/1 (271/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.7ms
+video 1/1 (272/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.4ms
+video 1/1 (273/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 83.5ms
+video 1/1 (274/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.5ms
+video 1/1 (275/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.2ms
+video 1/1 (1/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 166.3ms
+video 1/1 (2/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 86.4ms
+video 1/1 (3/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 87.3ms
+video 1/1 (4/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 104.8ms
+video 1/1 (5/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 107.1ms
+video 1/1 (6/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 97.4ms
+video 1/1 (7/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 97.7ms
+video 1/1 (8/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 100.2ms
+video 1/1 (9/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 100.2ms
+video 1/1 (10/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 95.5ms
+video 1/1 (11/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 79.6ms
+video 1/1 (12/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 78.5ms
+video 1/1 (13/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 88.3ms
+video 1/1 (14/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.7ms
+video 1/1 (15/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.2ms
+video 1/1 (16/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.7ms
+video 1/1 (17/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.3ms
+video 1/1 (18/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.0ms
+video 1/1 (19/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.1ms
+video 1/1 (20/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 62.8ms
+video 1/1 (21/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 59.0ms
+video 1/1 (22/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.4ms
+video 1/1 (23/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.8ms
+video 1/1 (24/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.4ms
+video 1/1 (25/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.0ms
+video 1/1 (26/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 83.1ms
+video 1/1 (27/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.9ms
+video 1/1 (28/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.8ms
+video 1/1 (29/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.4ms
+video 1/1 (30/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.3ms
+video 1/1 (31/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.4ms
+video 1/1 (32/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.9ms
+video 1/1 (33/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.9ms
+video 1/1 (34/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.4ms
+video 1/1 (35/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.8ms
+video 1/1 (36/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.4ms
+video 1/1 (37/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.6ms
+video 1/1 (38/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.4ms
+video 1/1 (39/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.1ms
+video 1/1 (40/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.7ms
+video 1/1 (41/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.1ms
+video 1/1 (42/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.9ms
+video 1/1 (43/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.0ms
+video 1/1 (44/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.3ms
+video 1/1 (45/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.6ms
+video 1/1 (46/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.4ms
+video 1/1 (47/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.7ms
+video 1/1 (48/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.5ms
+video 1/1 (49/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.8ms
+video 1/1 (50/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 80.6ms
+video 1/1 (51/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.3ms
+video 1/1 (52/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.0ms
+video 1/1 (53/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.9ms
+video 1/1 (54/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.8ms
+video 1/1 (55/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.8ms
+video 1/1 (56/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.2ms
+video 1/1 (57/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.5ms
+video 1/1 (58/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.1ms
+video 1/1 (59/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.3ms
+video 1/1 (60/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.7ms
+video 1/1 (61/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.4ms
+video 1/1 (62/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.6ms
+video 1/1 (63/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.8ms
+video 1/1 (64/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.4ms
+video 1/1 (65/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.5ms
+video 1/1 (66/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.3ms
+video 1/1 (67/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.1ms
+video 1/1 (68/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 61.9ms
+video 1/1 (69/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.0ms
+video 1/1 (70/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.9ms
+video 1/1 (71/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.5ms
+video 1/1 (72/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.0ms
+video 1/1 (73/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 61.8ms
+video 1/1 (74/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.8ms
+video 1/1 (75/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.4ms
+video 1/1 (76/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.4ms
+video 1/1 (77/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 60.0ms
+video 1/1 (78/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.7ms
+video 1/1 (79/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.0ms
+video 1/1 (80/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.9ms
+video 1/1 (81/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.9ms
+video 1/1 (82/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.0ms
+video 1/1 (83/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.4ms
+video 1/1 (84/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.5ms
+video 1/1 (85/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.1ms
+video 1/1 (86/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.1ms
+video 1/1 (87/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 63.8ms
+video 1/1 (88/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 94.3ms
+video 1/1 (89/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 95.9ms
+video 1/1 (90/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 83.8ms
+video 1/1 (91/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.8ms
+video 1/1 (92/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.6ms
+video 1/1 (93/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 62.3ms
+video 1/1 (94/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.5ms
+video 1/1 (95/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.1ms
+video 1/1 (96/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.3ms
+video 1/1 (97/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.5ms
+video 1/1 (98/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 85.9ms
+video 1/1 (99/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 93.7ms
+video 1/1 (100/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 103.7ms
+video 1/1 (101/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 125.0ms
+video 1/1 (102/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.2ms
+video 1/1 (103/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.4ms
+video 1/1 (104/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.2ms
+video 1/1 (105/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.9ms
+video 1/1 (106/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.9ms
+video 1/1 (107/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.0ms
+video 1/1 (108/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 63.2ms
+video 1/1 (109/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 86.8ms
+video 1/1 (110/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 79.2ms
+video 1/1 (111/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.6ms
+video 1/1 (112/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.1ms
+video 1/1 (113/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.7ms
+video 1/1 (114/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.0ms
+video 1/1 (115/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.1ms
+video 1/1 (116/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 63.0ms
+video 1/1 (117/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.6ms
+video 1/1 (118/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.9ms
+video 1/1 (119/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.0ms
+video 1/1 (120/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 59.3ms
+video 1/1 (121/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 61.9ms
+video 1/1 (122/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 62.9ms
+video 1/1 (123/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 61.8ms
+video 1/1 (124/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.8ms
+video 1/1 (125/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.5ms
+video 1/1 (126/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 77.1ms
+video 1/1 (127/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.7ms
+video 1/1 (128/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 63.8ms
+video 1/1 (129/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.1ms
+video 1/1 (130/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 62.1ms
+video 1/1 (131/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.5ms
+video 1/1 (132/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.4ms
+video 1/1 (133/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 79.5ms
+video 1/1 (134/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.1ms
+video 1/1 (135/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.5ms
+video 1/1 (136/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.9ms
+video 1/1 (137/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.1ms
+video 1/1 (138/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.2ms
+video 1/1 (139/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.9ms
+video 1/1 (140/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.8ms
+video 1/1 (141/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.5ms
+video 1/1 (142/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.9ms
+video 1/1 (143/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.5ms
+video 1/1 (144/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.1ms
+video 1/1 (145/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.3ms
+video 1/1 (146/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 63.3ms
+video 1/1 (147/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.4ms
+video 1/1 (148/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.9ms
+video 1/1 (149/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.9ms
+video 1/1 (150/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.1ms
+video 1/1 (151/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.7ms
+video 1/1 (152/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.4ms
+video 1/1 (153/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.9ms
+video 1/1 (154/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.1ms
+video 1/1 (155/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 63.0ms
+video 1/1 (156/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 60.8ms
+video 1/1 (157/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.4ms
+video 1/1 (158/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.7ms
+video 1/1 (159/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.6ms
+video 1/1 (160/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.6ms
+video 1/1 (161/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.7ms
+video 1/1 (162/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.5ms
+video 1/1 (163/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.1ms
+video 1/1 (164/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.5ms
+video 1/1 (165/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.5ms
+video 1/1 (166/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.5ms
+video 1/1 (167/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 107.4ms
+video 1/1 (168/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.0ms
+video 1/1 (169/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.5ms
+video 1/1 (170/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.0ms
+video 1/1 (171/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.2ms
+video 1/1 (172/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.8ms
+video 1/1 (173/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.3ms
+video 1/1 (174/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 78.1ms
+video 1/1 (175/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.5ms
+video 1/1 (176/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 123.0ms
+video 1/1 (177/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.3ms
+video 1/1 (178/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.7ms
+video 1/1 (179/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.2ms
+video 1/1 (180/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.9ms
+video 1/1 (181/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.1ms
+video 1/1 (182/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.9ms
+video 1/1 (183/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.1ms
+video 1/1 (184/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.8ms
+video 1/1 (185/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.9ms
+video 1/1 (186/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.0ms
+video 1/1 (187/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 79.9ms
+video 1/1 (188/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.4ms
+video 1/1 (189/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.8ms
+video 1/1 (190/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.9ms
+video 1/1 (191/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.8ms
+video 1/1 (192/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.2ms
+video 1/1 (193/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.7ms
+video 1/1 (194/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 60.7ms
+video 1/1 (195/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 61.2ms
+video 1/1 (196/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.5ms
+video 1/1 (197/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.0ms
+video 1/1 (198/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.9ms
+video 1/1 (199/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 63.1ms
+video 1/1 (200/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.0ms
+video 1/1 (201/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 83.5ms
+video 1/1 (202/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.5ms
+video 1/1 (203/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.5ms
+video 1/1 (204/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.2ms
+video 1/1 (205/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.6ms
+video 1/1 (206/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 62.5ms
+video 1/1 (207/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.8ms
+video 1/1 (208/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.8ms
+video 1/1 (209/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.1ms
+video 1/1 (210/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 63.5ms
+video 1/1 (211/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.4ms
+video 1/1 (212/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.4ms
+video 1/1 (213/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.8ms
+video 1/1 (214/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.5ms
+video 1/1 (215/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 58.3ms
+video 1/1 (216/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.6ms
+video 1/1 (217/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.7ms
+video 1/1 (218/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.8ms
+video 1/1 (219/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 90.9ms
+video 1/1 (220/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 87.3ms
+video 1/1 (221/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 89.3ms
+video 1/1 (222/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.9ms
+video 1/1 (223/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.2ms
+video 1/1 (224/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.3ms
+video 1/1 (225/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.1ms
+video 1/1 (226/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.2ms
+video 1/1 (227/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.3ms
+CONFIDENCE : 86.25901794433594 %
+video 1/1 (228/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 73.2ms
+CONFIDENCE : 93.16168212890625 %
+video 1/1 (229/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 70.9ms
+CONFIDENCE : 76.61139678955078 %
+video 1/1 (230/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 70.9ms
+CONFIDENCE : 90.40823364257812 %
+video 1/1 (231/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 67.0ms
+CONFIDENCE : 92.09107208251953 %
+video 1/1 (232/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 68.9ms
+CONFIDENCE : 93.88865661621094 %
+video 1/1 (233/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 68.2ms
+CONFIDENCE : 92.61738586425781 %
+video 1/1 (234/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 65.5ms
+CONFIDENCE : 92.49799346923828 %
+video 1/1 (235/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 72.6ms
+CONFIDENCE : 91.59940338134766 %
+video 1/1 (236/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 68.0ms
+CONFIDENCE : 93.33990478515625 %
+video 1/1 (237/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 70.6ms
+CONFIDENCE : 90.77631378173828 %
+video 1/1 (238/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 73.8ms
+CONFIDENCE : 93.08220672607422 %
+video 1/1 (239/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 78.2ms
+CONFIDENCE : 93.22191619873047 %
+video 1/1 (240/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 117.5ms
+CONFIDENCE : 92.53981018066406 %
+video 1/1 (241/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 81.2ms
+CONFIDENCE : 94.55091094970703 %
+video 1/1 (242/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 70.8ms
+CONFIDENCE : 94.43292236328125 %
+video 1/1 (243/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 80.8ms
+CONFIDENCE : 92.1937255859375 %
+video 1/1 (244/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 87.6ms
+CONFIDENCE : 93.08756256103516 %
+video 1/1 (245/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 70.4ms
+CONFIDENCE : 93.68121337890625 %
+video 1/1 (246/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 72.2ms
+CONFIDENCE : 90.57740020751953 %
+video 1/1 (247/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 74.8ms
+CONFIDENCE : 93.198486328125 %
+video 1/1 (248/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 69.1ms
+CONFIDENCE : 93.79293823242188 %
+video 1/1 (249/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 75.0ms
+CONFIDENCE : 93.9807357788086 %
+video 1/1 (250/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 75.1ms
+CONFIDENCE : 93.65949249267578 %
+video 1/1 (251/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 63.6ms
+CONFIDENCE : 93.88936614990234 %
+video 1/1 (252/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 66.9ms
+CONFIDENCE : 94.71755981445312 %
+video 1/1 (253/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 64.6ms
+CONFIDENCE : 94.16969299316406 %
+video 1/1 (254/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 69.8ms
+CONFIDENCE : 92.3183822631836 %
+video 1/1 (255/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 65.4ms
+CONFIDENCE : 92.51646423339844 %
+video 1/1 (256/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 55.7ms
+CONFIDENCE : 93.3848648071289 %
+video 1/1 (257/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 69.6ms
+CONFIDENCE : 94.45943450927734 %
+video 1/1 (258/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 70.1ms
+CONFIDENCE : 91.94698333740234 %
+video 1/1 (259/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 62.9ms
+CONFIDENCE : 88.1133041381836 %
+video 1/1 (260/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 65.9ms
+CONFIDENCE : 85.09283447265625 %
+video 1/1 (261/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 63.2ms
+CONFIDENCE : 81.87967681884766 %
+video 1/1 (262/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 69.7ms
+CONFIDENCE : 58.72743225097656 %
+video 1/1 (263/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 70.3ms
+CONFIDENCE : 54.56631088256836 %
+video 1/1 (264/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 87.5ms
+CONFIDENCE : 51.459495544433594 %
+video 1/1 (265/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 75.9ms
+video 1/1 (266/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.6ms
+video 1/1 (267/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.5ms
+video 1/1 (268/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.3ms
+video 1/1 (269/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.2ms
+video 1/1 (270/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.9ms
+video 1/1 (271/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.2ms
+video 1/1 (272/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.4ms
+video 1/1 (273/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.1ms
+video 1/1 (274/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 87.4ms
+video 1/1 (275/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 84.8ms
+video 1/1 (1/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 77.5ms
+video 1/1 (2/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.3ms
+video 1/1 (3/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 93.5ms
+video 1/1 (4/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 98.1ms
+video 1/1 (5/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 156.0ms
+video 1/1 (6/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.2ms
+video 1/1 (7/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 96.1ms
+video 1/1 (8/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 111.9ms
+video 1/1 (9/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 92.7ms
+video 1/1 (10/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 78.1ms
+video 1/1 (11/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 117.5ms
+video 1/1 (12/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 88.4ms
+video 1/1 (13/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 88.3ms
+video 1/1 (14/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 77.2ms
+video 1/1 (15/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.2ms
+video 1/1 (16/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 83.5ms
+video 1/1 (17/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.8ms
+video 1/1 (18/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.4ms
+video 1/1 (19/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 90.2ms
+video 1/1 (20/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 79.1ms
+video 1/1 (21/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 112.5ms
+video 1/1 (22/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.7ms
+video 1/1 (23/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.4ms
+video 1/1 (24/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 202.6ms
+video 1/1 (25/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 96.4ms
+video 1/1 (26/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.4ms
+video 1/1 (27/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.3ms
+video 1/1 (28/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 80.5ms
+video 1/1 (29/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.1ms
+video 1/1 (30/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 85.0ms
+video 1/1 (31/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.0ms
+video 1/1 (32/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 83.1ms
+video 1/1 (33/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.2ms
+video 1/1 (34/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.6ms
+video 1/1 (35/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 78.6ms
+video 1/1 (36/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 77.6ms
+video 1/1 (37/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 98.0ms
+video 1/1 (38/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.3ms
+video 1/1 (39/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.8ms
+video 1/1 (40/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 95.6ms
+video 1/1 (41/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 84.0ms
+video 1/1 (42/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 87.5ms
+video 1/1 (43/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.2ms
+video 1/1 (44/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 85.7ms
+video 1/1 (45/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.2ms
+video 1/1 (46/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.4ms
+video 1/1 (47/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.8ms
+video 1/1 (48/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 79.0ms
+video 1/1 (49/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.8ms
+video 1/1 (50/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.5ms
+video 1/1 (51/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.7ms
+video 1/1 (52/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.7ms
+video 1/1 (53/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 78.0ms
+video 1/1 (54/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.5ms
+video 1/1 (55/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.5ms
+video 1/1 (56/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 77.8ms
+video 1/1 (57/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 77.9ms
+video 1/1 (58/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.1ms
+video 1/1 (59/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 78.0ms
+video 1/1 (60/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.4ms
+video 1/1 (61/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.6ms
+video 1/1 (62/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.1ms
+video 1/1 (63/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.0ms
+video 1/1 (64/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.5ms
+video 1/1 (65/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.9ms
+video 1/1 (66/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.3ms
+video 1/1 (67/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 78.3ms
+video 1/1 (68/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.7ms
+video 1/1 (69/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.9ms
+video 1/1 (70/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 80.4ms
+video 1/1 (71/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.4ms
+video 1/1 (72/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.0ms
+video 1/1 (73/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.1ms
+video 1/1 (74/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.1ms
+video 1/1 (75/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.7ms
+video 1/1 (76/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.2ms
+video 1/1 (77/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.2ms
+video 1/1 (78/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.7ms
+video 1/1 (79/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.8ms
+video 1/1 (80/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.7ms
+video 1/1 (81/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 104.0ms
+video 1/1 (82/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 88.8ms
+video 1/1 (83/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 101.7ms
+video 1/1 (84/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 84.9ms
+video 1/1 (85/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.2ms
+video 1/1 (86/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 95.0ms
+video 1/1 (87/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 87.9ms
+video 1/1 (88/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.3ms
+video 1/1 (89/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 88.5ms
+video 1/1 (90/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 78.1ms
+video 1/1 (91/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.2ms
+video 1/1 (92/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.6ms
+video 1/1 (93/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.4ms
+video 1/1 (94/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.8ms
+video 1/1 (95/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.7ms
+video 1/1 (96/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.1ms
+video 1/1 (97/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 83.9ms
+video 1/1 (98/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 79.7ms
+video 1/1 (99/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 82.8ms
+video 1/1 (100/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.2ms
+video 1/1 (101/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.7ms
+video 1/1 (102/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.1ms
+video 1/1 (103/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.5ms
+video 1/1 (104/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.9ms
+video 1/1 (105/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.6ms
+video 1/1 (106/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.4ms
+video 1/1 (107/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.6ms
+video 1/1 (108/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.4ms
+video 1/1 (109/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.8ms
+video 1/1 (110/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.7ms
+video 1/1 (111/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.8ms
+video 1/1 (112/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.4ms
+video 1/1 (113/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.1ms
+video 1/1 (114/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.1ms
+video 1/1 (115/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.8ms
+video 1/1 (116/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.1ms
+video 1/1 (117/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.0ms
+video 1/1 (118/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.5ms
+video 1/1 (119/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.1ms
+video 1/1 (120/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.2ms
+video 1/1 (121/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.1ms
+video 1/1 (122/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 79.9ms
+video 1/1 (123/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.8ms
+video 1/1 (124/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.9ms
+video 1/1 (125/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.2ms
+video 1/1 (126/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.0ms
+video 1/1 (127/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 96.4ms
+video 1/1 (128/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.6ms
+video 1/1 (129/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.6ms
+video 1/1 (130/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 77.0ms
+video 1/1 (131/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.8ms
+video 1/1 (132/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 93.8ms
+video 1/1 (133/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.7ms
+video 1/1 (134/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.0ms
+video 1/1 (135/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.0ms
+video 1/1 (136/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.5ms
+video 1/1 (137/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.0ms
+video 1/1 (138/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 82.6ms
+video 1/1 (139/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.2ms
+video 1/1 (140/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 82.7ms
+video 1/1 (141/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 89.1ms
+video 1/1 (142/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.0ms
+video 1/1 (143/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 78.1ms
+video 1/1 (144/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.1ms
+video 1/1 (145/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.9ms
+video 1/1 (146/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 79.2ms
+video 1/1 (147/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.1ms
+video 1/1 (148/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.4ms
+video 1/1 (149/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.1ms
+video 1/1 (150/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.5ms
+video 1/1 (151/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 107.7ms
+video 1/1 (152/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 88.5ms
+video 1/1 (153/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.8ms
+video 1/1 (154/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 77.2ms
+video 1/1 (155/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 82.3ms
+video 1/1 (156/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.7ms
+video 1/1 (157/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 71.3ms
+video 1/1 (158/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.3ms
+video 1/1 (159/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 80.7ms
+video 1/1 (160/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.3ms
+video 1/1 (161/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.2ms
+video 1/1 (162/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.8ms
+video 1/1 (163/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 104.6ms
+video 1/1 (164/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.1ms
+video 1/1 (165/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 82.4ms
+video 1/1 (166/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 81.0ms
+video 1/1 (167/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 66.2ms
+video 1/1 (168/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.9ms
+video 1/1 (169/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.4ms
+video 1/1 (170/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 103.4ms
+video 1/1 (171/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.7ms
+video 1/1 (172/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 77.1ms
+video 1/1 (173/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.4ms
+video 1/1 (174/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.8ms
+video 1/1 (175/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 79.1ms
+video 1/1 (176/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.5ms
+video 1/1 (177/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.0ms
+video 1/1 (178/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.1ms
+video 1/1 (179/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 64.6ms
+video 1/1 (180/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.6ms
+video 1/1 (181/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 106.3ms
+video 1/1 (182/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.0ms
+video 1/1 (183/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 65.7ms
+video 1/1 (184/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.8ms
+video 1/1 (185/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.3ms
+video 1/1 (186/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.7ms
+video 1/1 (187/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.9ms
+video 1/1 (188/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.0ms
+video 1/1 (189/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.0ms
+video 1/1 (190/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.0ms
+video 1/1 (191/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.8ms
+video 1/1 (192/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.9ms
+video 1/1 (193/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.0ms
+video 1/1 (194/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.3ms
+video 1/1 (195/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.1ms
+video 1/1 (196/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.1ms
+video 1/1 (197/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.6ms
+video 1/1 (198/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.2ms
+video 1/1 (199/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.5ms
+video 1/1 (200/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.0ms
+video 1/1 (201/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.6ms
+video 1/1 (202/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.3ms
+video 1/1 (203/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.2ms
+video 1/1 (204/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.4ms
+video 1/1 (205/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.6ms
+video 1/1 (206/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 90.3ms
+video 1/1 (207/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 82.8ms
+video 1/1 (208/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.3ms
+video 1/1 (209/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.9ms
+video 1/1 (210/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.2ms
+video 1/1 (211/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.6ms
+video 1/1 (212/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.2ms
+video 1/1 (213/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.5ms
+video 1/1 (214/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.0ms
+video 1/1 (215/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.5ms
+video 1/1 (216/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.6ms
+video 1/1 (217/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 70.2ms
+video 1/1 (218/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.4ms
+video 1/1 (219/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 74.2ms
+video 1/1 (220/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.3ms
+video 1/1 (221/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.8ms
+video 1/1 (222/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.0ms
+video 1/1 (223/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 87.2ms
+video 1/1 (224/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 92.6ms
+video 1/1 (225/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.6ms
+video 1/1 (226/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.8ms
+video 1/1 (227/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 68.2ms
+CONFIDENCE : 86.25901794433594 %
+video 1/1 (228/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 68.9ms
+CONFIDENCE : 93.16168212890625 %
+video 1/1 (229/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 72.5ms
+CONFIDENCE : 76.61139678955078 %
+video 1/1 (230/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 65.5ms
+CONFIDENCE : 90.40823364257812 %
+video 1/1 (231/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 69.3ms
+CONFIDENCE : 92.09107208251953 %
+video 1/1 (232/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 64.6ms
+CONFIDENCE : 93.88865661621094 %
+video 1/1 (233/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 67.2ms
+CONFIDENCE : 92.61738586425781 %
+video 1/1 (234/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 76.1ms
+CONFIDENCE : 92.49799346923828 %
+video 1/1 (235/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 68.6ms
+CONFIDENCE : 91.59940338134766 %
+video 1/1 (236/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 101.8ms
+CONFIDENCE : 93.33990478515625 %
+video 1/1 (237/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 77.5ms
+CONFIDENCE : 90.77631378173828 %
+video 1/1 (238/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 68.6ms
+CONFIDENCE : 93.08220672607422 %
+video 1/1 (239/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 74.0ms
+CONFIDENCE : 93.22191619873047 %
+video 1/1 (240/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 80.1ms
+CONFIDENCE : 92.53981018066406 %
+video 1/1 (241/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 69.1ms
+CONFIDENCE : 94.55091094970703 %
+video 1/1 (242/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 73.8ms
+CONFIDENCE : 94.43292236328125 %
+video 1/1 (243/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 82.2ms
+CONFIDENCE : 92.1937255859375 %
+video 1/1 (244/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 79.9ms
+CONFIDENCE : 93.08756256103516 %
+video 1/1 (245/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 78.3ms
+CONFIDENCE : 93.68121337890625 %
+video 1/1 (246/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 68.3ms
+CONFIDENCE : 90.57740020751953 %
+video 1/1 (247/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 71.8ms
+CONFIDENCE : 93.198486328125 %
+video 1/1 (248/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 66.3ms
+CONFIDENCE : 93.79293823242188 %
+video 1/1 (249/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 83.2ms
+CONFIDENCE : 93.9807357788086 %
+video 1/1 (250/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 82.0ms
+CONFIDENCE : 93.65949249267578 %
+video 1/1 (251/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 69.8ms
+CONFIDENCE : 93.88936614990234 %
+video 1/1 (252/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 72.0ms
+CONFIDENCE : 94.71755981445312 %
+video 1/1 (253/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 81.6ms
+CONFIDENCE : 94.16969299316406 %
+video 1/1 (254/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 98.3ms
+CONFIDENCE : 92.3183822631836 %
+video 1/1 (255/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 70.8ms
+CONFIDENCE : 92.51646423339844 %
+video 1/1 (256/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 74.7ms
+CONFIDENCE : 93.3848648071289 %
+video 1/1 (257/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 74.7ms
+CONFIDENCE : 94.45943450927734 %
+video 1/1 (258/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 72.9ms
+CONFIDENCE : 91.94698333740234 %
+video 1/1 (259/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 69.8ms
+CONFIDENCE : 88.1133041381836 %
+video 1/1 (260/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 70.1ms
+CONFIDENCE : 85.09283447265625 %
+video 1/1 (261/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 72.2ms
+CONFIDENCE : 81.87967681884766 %
+video 1/1 (262/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 67.4ms
+CONFIDENCE : 58.72743225097656 %
+video 1/1 (263/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 69.6ms
+CONFIDENCE : 54.56631088256836 %
+video 1/1 (264/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 76.1ms
+CONFIDENCE : 51.459495544433594 %
+video 1/1 (265/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 1 Container_Number, 73.6ms
+video 1/1 (266/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.0ms
+video 1/1 (267/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 76.1ms
+video 1/1 (268/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.8ms
+video 1/1 (269/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 73.5ms
+video 1/1 (270/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.4ms
+video 1/1 (271/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 72.5ms
+video 1/1 (272/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 67.7ms
+video 1/1 (273/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.5ms
+video 1/1 (274/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 85.0ms
+video 1/1 (275/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.3ms

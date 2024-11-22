@@ -1,4 +1,4 @@
-from yolo.main import read_cntr_number_region, send_to_AWS_Textract  # YOLO의 처리 함수
+from yolo.main import read_cntr_number_region  # YOLO의 처리 함수
 from yolo import detect
 from supabase import create_client, Client
 from flask import Flask, request, jsonify
@@ -61,7 +61,7 @@ def home():
 @application.route('/process_yolo', methods=['POST'])
 def process_yolo():
     video_name = request.form.get('video_name')
-    logging.info(f"Received video: {video_name}")
+    logging.info(f"LOG-- Received video: {video_name}")
 
     if not video_name:
         return jsonify({"error": "No video name provided"}), 400
@@ -70,15 +70,15 @@ def process_yolo():
         # 비디오 다운로드
         bucket_name = os.getenv("STORAGE_BUCKET")
         local_path = download_video(bucket_name, video_name)
+        logging.info(f"LOG-- Video downloaded to: {local_path}")
 
-        # YOLO 처리 함수 호출
-        logging.info("Running YOLO model on the downloaded video.")
-        max_conf_img_path = read_cntr_number_region(local_path)  # YOLO 결과 이미지 경로 반환
-
-        # 텍스트 추출 및 처리 (AWS Textract 호출 등 추가 기능 구현 가능)
-        logging.info(f"LOG-- Most confident image path: {max_conf_img_path}")
-        extracted_result = send_to_AWS_Textract(max_conf_img_path, driver_name="")
-        logging.info(f"LOG-- Extracted Container Number: {extracted_result}")
+        # YOLO 처리 및 모든 프로세스 실행
+        try:
+            result = read_cntr_number_region(local_path)  # YOLO 및 후속 작업 처리
+            logging.info(f"LOG-- Process result: {result}")
+        except Exception as e:
+            logging.error(f"LOG-- Error during processing: {e}")
+            return jsonify({"error": f"Processing error: {str(e)}"}), 500
 
         # 비디오 삭제
         if os.path.exists(local_path):
@@ -87,10 +87,10 @@ def process_yolo():
         else:
             logging.warning(f"LOG-- Video file {local_path} does not exist, skipping deletion.")
 
-        return jsonify({"message": "Processed video successfully", "image_path": max_conf_img_path}), 200
+        return jsonify({"message": "Processed video successfully", "result": result}), 200
 
     except Exception as e:
-        logging.error(f"Error processing video: {e}")
+        logging.error(f"LOG-- Error processing video: {e}")
         return jsonify({"error": str(e)}), 500
 
 
