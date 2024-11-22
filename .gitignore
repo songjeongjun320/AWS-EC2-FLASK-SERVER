@@ -30,7 +30,7 @@ textractfile.py
 !cfg/yolov3*.cfg
 
 storage.googleapis.com
-runs/detect
+runs/detect/*
 data/*
 data/images/*
 dist/*
