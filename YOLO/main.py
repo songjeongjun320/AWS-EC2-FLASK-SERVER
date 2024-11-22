@@ -2,7 +2,7 @@ from supabase import create_client, Client
 from dotenv import load_dotenv
 from datetime import datetime
 from typing import List, Tuple
-from yolo.detect import run # Assuming detect is a custom module you've implemented
+import detect # Assuming detect is a custom module you've implemented
 import logging
 import random
 import boto3
