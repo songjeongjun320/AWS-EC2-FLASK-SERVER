@@ -71,13 +71,10 @@ def process_yolo():
         local_path = download_video(bucket_name, video_name)
         logging.info(f"LOG-- Video downloaded to: {local_path}")
 
-        # YOLO 처리 및 모든 프로세스 실행
-        try:
-            result = read_cntr_number_region(local_path)  # YOLO 및 후속 작업 처리
-            logging.info(f"LOG-- Process result: {result}")
-        except Exception as e:
-            logging.error(f"LOG-- Error during processing: {e}")
-            return jsonify({"error": f"Processing error: {str(e)}"}), 500
+        # YOLO 처리 함수 호출
+        logging.info("Running YOLO model on the downloaded video.")
+        extracted_result = read_cntr_number_region(local_path)  # YOLO 결과 이미지 경로 반환
+        logging.info(f"LOG-- Extracted Container Number: {extracted_result}")
 
         # 비디오 삭제
         if os.path.exists(local_path):
@@ -86,7 +83,7 @@ def process_yolo():
         else:
             logging.warning(f"LOG-- Video file {local_path} does not exist, skipping deletion.")
 
-        return jsonify({"message": "Processed video successfully", "result": result}), 200
+        return jsonify({"message": "Processed video successfully", "extracted_result": extracted_result}), 200
 
     except Exception as e:
         logging.error(f"LOG-- Error processing video: {e}")
