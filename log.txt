@@ -7799,3 +7799,37 @@ video 1/1 (272/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 
 video 1/1 (273/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 75.5ms
 video 1/1 (274/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 85.0ms
 video 1/1 (275/447) C:\tmp\PHX-CKIN-151930-151947.mp4: 384x640 (no detections), 69.3ms
+video 1/1 (1/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 68.9ms
+video 1/1 (2/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 68.2ms
+video 1/1 (3/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 69.3ms
+video 1/1 (4/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 64.2ms
+video 1/1 (5/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 69.3ms
+video 1/1 (6/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 66.9ms
+video 1/1 (7/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 68.6ms
+video 1/1 (8/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 68.0ms
+video 1/1 (9/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 61.5ms
+video 1/1 (10/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 62.9ms
+video 1/1 (11/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 60.3ms
+video 1/1 (12/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 65.7ms
+CONFIDENCE : 86.94522094726562 %
+video 1/1 (13/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 1 Container_Number, 71.6ms
+CONFIDENCE : 88.17720031738281 %
+video 1/1 (14/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 1 Container_Number, 72.8ms
+CONFIDENCE : 91.26140594482422 %
+video 1/1 (15/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 1 Container_Number, 68.6ms
+CONFIDENCE : 81.29459381103516 %
+video 1/1 (16/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 1 Container_Number, 66.9ms
+CONFIDENCE : 77.9775390625 %
+video 1/1 (17/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 1 Container_Number, 63.2ms
+CONFIDENCE : 72.91584014892578 %
+video 1/1 (18/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 1 Container_Number, 69.3ms
+video 1/1 (19/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 70.8ms
+video 1/1 (20/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 65.3ms
+video 1/1 (21/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 68.3ms
+video 1/1 (22/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 64.7ms
+video 1/1 (23/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 65.2ms
+video 1/1 (24/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 63.6ms
+video 1/1 (25/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 67.0ms
+video 1/1 (26/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 65.2ms
+video 1/1 (27/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 62.0ms
+video 1/1 (28/41) C:\tmp\PHX-CKOUT-video7.mp4: 384x640 (no detections), 61.1ms
