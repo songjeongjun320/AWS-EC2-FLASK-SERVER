@@ -45,7 +45,7 @@ def configure() -> None:
     dotenv_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '.env')
     load_dotenv(dotenv_path)
 
-def get_acct() -> Tuple[str, str, str]:
+def get_acct():
     area = os.getenv('TEXTRACT_AREA')
     access_id = os.getenv('ACCESS_ID')
     access_key = os.getenv('ACCESS_KEY')
@@ -60,7 +60,7 @@ def read_cntr_number_region(video_path) -> str:
     conf_threshold = 0.5
 
     # Run detection using your custom detect module
-    max_conf_img_path = detect.run(weights=weight, source=video_path, conf_thres=conf_threshold)
+    max_conf_img_path = yolo.detect.run(weights=weight, source=video_path, conf_thres=conf_threshold)
     print("Detection Completed at: ", datetime.now())
     print("The most confident img path: ", max_conf_img_path)
 
