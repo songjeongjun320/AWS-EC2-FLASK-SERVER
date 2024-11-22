@@ -33,7 +33,7 @@ textractfile.py
 !cfg/yolov3*.cfg
 
 storage.googleapis.com
-runs/*
+runs/detect/*
 data/*
 data/images/*
 dist/*
@@ -61,7 +61,6 @@ VOC/
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
 *.weights
-*.pt
 *.pb
 *.onnx
 *.engine
@@ -266,9 +265,6 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
-
-# Educated by Jun
-train/
 
 # Company codes
 Company_List.txt
