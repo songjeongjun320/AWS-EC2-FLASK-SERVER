@@ -264,9 +264,6 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-# Educated by Jun
-train/
-
 # Company codes
 Company_List.txt
 
