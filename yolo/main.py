@@ -1,12 +1,14 @@
 from supabase import create_client, Client
 from dotenv import load_dotenv
 from datetime import datetime
-from yolo import detect  # Assuming detect is a custom module you've implemented
+import yolo.detect
 import logging
 import random
 import boto3
+import sys
 import re
 import os
+
 
 # Logger
 logging.basicConfig(level=logging.INFO)
@@ -32,7 +34,7 @@ def read_cntr_number_region(video_path) -> str:
     conf_threshold = 0.5
 
     # Run detection using your custom detect module
-    max_conf_img_path = detect.run(weights=weight, source=video_path, conf_thres=conf_threshold)
+    max_conf_img_path = yolo.detect.run(weights=weight, source=video_path, conf_thres=conf_threshold)
     print("Detection Completed at: ", datetime.now())
     print("The most confident img path: ", max_conf_img_path)
     return max_conf_img_path

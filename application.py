@@ -1,5 +1,4 @@
 from yolo.main import read_cntr_number_region, send_to_AWS_Textract  # YOLO의 처리 함수
-from yolo import detect
 from supabase import create_client, Client
 from flask import Flask, request, jsonify
 from dotenv import load_dotenv
