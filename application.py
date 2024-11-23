@@ -9,6 +9,7 @@ import pdfplumber
 import tempfile
 import logging
 import asyncio
+import shutil
 import json
 import os
 import time
@@ -51,8 +52,11 @@ def home():
 # YMS Project #####################################################################################
 @application.route('/process_yolo', methods=['POST'])
 def process_yolo():
+    # video_name과 driver_name 요청에서 가져오기
     video_name = request.form.get('video_name')
+    driver_name = request.form.get('driver_name')  # driver_name 추가
     logging.info(f"LOG-- Received video: {video_name}")
+    logging.info(f"LOG-- Received driver name: {driver_name}")
 
     if not video_name:
         return jsonify({"error": "No video name provided"}), 400
@@ -65,7 +69,7 @@ def process_yolo():
 
         # YOLO 처리 함수 호출
         logging.info("Running YOLO model on the downloaded video.")
-        extracted_result = read_cntr_number_region(local_path)  # YOLO 결과 이미지 경로 반환
+        extracted_result = read_cntr_number_region(local_path, driver_name)  # YOLO 결과 이미지 경로 반환
         logging.info(f"LOG-- Extracted Container Number: {extracted_result}")
 
         # 비디오 삭제
@@ -74,6 +78,17 @@ def process_yolo():
             logging.info(f"LOG-- Video file {local_path} deleted successfully.")
         else:
             logging.warning(f"LOG-- Video file {local_path} does not exist, skipping deletion.")
+
+        # runs/detect 디렉토리 내 모든 하위 폴더 삭제
+        detect_dir = os.path.join(os.getcwd(),"yolo", "runs", "detect")
+        if os.path.exists(detect_dir):
+            for folder in os.listdir(detect_dir):
+                folder_path = os.path.join(detect_dir, folder)
+                if os.path.isdir(folder_path):
+                    shutil.rmtree(folder_path)  # 폴더 삭제
+                    logging.info(f"LOG-- Deleted folder: {folder_path}")
+        else:
+            logging.warning(f"LOG-- Directory {detect_dir} does not exist, skipping cleanup.")
 
         return jsonify({"message": "Processed video successfully", "extracted_result": extracted_result}), 200
 

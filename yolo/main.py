@@ -39,7 +39,7 @@ def get_acct():
 
 
 # It will return extracted result
-def read_cntr_number_region(video_path) -> str:
+def read_cntr_number_region(video_path, driver_name) -> str:
     # Example weights and configuration
     weight = "./runs/train/TruckNumber_yolov5s_results34/weights/best.pt"
     conf_threshold = 0.5
@@ -50,7 +50,7 @@ def read_cntr_number_region(video_path) -> str:
     print("The most confident img path: ", max_conf_img_path)
 
     logging.info(f"LOG-- Most confident image path: {max_conf_img_path}")
-    extracted_result = send_to_AWS_Textract(max_conf_img_path, driver_name="")
+    extracted_result = send_to_AWS_Textract(max_conf_img_path, driver_name)
     return extracted_result
 
 
@@ -162,7 +162,7 @@ def postNewImgToSupabase(max_conf_img_path, new_id):
     logging.info("Starting image upload to Supabase storage...")
     client = createSupabaseClient_YMS()
     storage_bucket = os.getenv("STORAGE_IMG_BUCKET")  # Supabase Storage 버킷 이름
-    file_name = f"{new_id}.jpg"  # 파일 이름은 row의 id 기반으로 설정
+    file_name = f"{new_id:03}.jpg"  # 파일 이름은 row의 id 기반으로 설정
 
     logging.info(f"Target bucket: {storage_bucket}, file name: {file_name}")
 
