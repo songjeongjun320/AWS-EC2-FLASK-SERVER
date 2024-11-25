@@ -9,10 +9,8 @@ import pdfplumber
 import tempfile
 import logging
 import asyncio
-import shutil
 import json
 import os
-import time
 from os import getenv
 
 
@@ -78,17 +76,6 @@ def process_yolo():
             logging.info(f"LOG-- Video file {local_path} deleted successfully.")
         else:
             logging.warning(f"LOG-- Video file {local_path} does not exist, skipping deletion.")
-
-        # runs/detect 디렉토리 내 모든 하위 폴더 삭제
-        detect_dir = os.path.join(os.getcwd(),"yolo", "runs", "detect")
-        if os.path.exists(detect_dir):
-            for folder in os.listdir(detect_dir):
-                folder_path = os.path.join(detect_dir, folder)
-                if os.path.isdir(folder_path):
-                    shutil.rmtree(folder_path)  # 폴더 삭제
-                    logging.info(f"LOG-- Deleted folder: {folder_path}")
-        else:
-            logging.warning(f"LOG-- Directory {detect_dir} does not exist, skipping cleanup.")
 
         return jsonify({"message": "Processed video successfully", "extracted_result": extracted_result}), 200
 

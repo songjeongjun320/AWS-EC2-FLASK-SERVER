@@ -241,21 +241,50 @@ def run(
             # Save results (image with detections)
             if save_img:
                 if dataset.mode == 'image':
+                    # 이미지 저장
+                    LOGGER.info(f"Saving image to {save_path}")
                     cv2.imwrite(save_path, im0)
                 else:  # 'video' or 'stream'
-                    if vid_path[i] != save_path:  # new video
+                    if vid_path[i] != save_path:  # 새 비디오 파일
                         vid_path[i] = save_path
                         if isinstance(vid_writer[i], cv2.VideoWriter):
-                            vid_writer[i].release()  # release previous video writer
-                        if vid_cap:  # video
+                            LOGGER.info(f"Releasing previous video writer for {vid_path[i]}")
+                            vid_writer[i].release()
+
+                        if vid_cap:  # 비디오 속성 가져오기
                             fps = vid_cap.get(cv2.CAP_PROP_FPS)
-                            w = int(vid_cap.get(cv2.CAP_PROP_FRAME_WIDTH)) - 3000
-                            h = int(vid_cap.get(cv2.CAP_PROP_FRAME_HEIGHT)) - 3000
-                        else:  # stream
+                            w = int(vid_cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+                            h = int(vid_cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+                            LOGGER.info(f"Video properties - FPS: {fps}, Width: {w}, Height: {h}")
+                            if w <= 0 or h <= 0:
+                                LOGGER.error(f"Invalid video dimensions: Width={w}, Height={h}")
+                        else:  # 스트림 기본값 설정
                             fps, w, h = 30, im0.shape[1], im0.shape[0]
-                        save_path = str(Path(save_path).with_suffix('.mp4'))  # force *.mp4 suffix on results videos
-                        vid_writer[i] = cv2.VideoWriter(save_path, cv2.VideoWriter_fourcc(*'mp4v'), fps, (w, h))
-                    vid_writer[i].write(im0)
+                            LOGGER.info(f"Stream properties - FPS: {fps}, Width: {w}, Height: {h}")
+
+                        save_path = str(Path(save_path).with_suffix('.mp4'))  # 비디오 확장자 강제 설정
+                        LOGGER.info(f"Initializing VideoWriter for {save_path}")
+
+                        try:
+                            vid_writer[i] = cv2.VideoWriter(
+                                save_path, cv2.VideoWriter_fourcc(*'mp4v'), fps, (w, h)
+                            )
+                            if not vid_writer[i].isOpened():
+                                LOGGER.error(f"Failed to open VideoWriter for {save_path}")
+                        except Exception as e:
+                            LOGGER.error(f"Error initializing VideoWriter: {e}")
+
+                    # 매 프레임 쓰기 (강제)
+                    try:
+                        if im0 is not None:
+                            LOGGER.info(f"Writing frame to {save_path}")
+                            vid_writer[i].write(im0)  # 매 프레임 작성
+                        else:
+                            LOGGER.error("Frame is empty, cannot write to video.")
+                    except Exception as e:
+                        LOGGER.error(f"Error writing frame to video: {e}")
+
+
         # Print time (inference-only)
         LOGGER.info(f"{s}{'' if len(det) else '(no detections), '}{dt[1].dt * 1E3:.1f}ms")
         

@@ -4,6 +4,7 @@ from datetime import datetime
 import yolo.detect
 import logging
 import random
+import shutil
 import boto3
 import sys
 import re
@@ -93,6 +94,7 @@ def send_to_AWS_Textract(max_conf_img_path, driver_name) -> str:
         except Exception as e:
             raise Exception(f"Failed to upload image to Supabase storage: {e}")
 
+        upload_and_cleanup_videos(new_id)
         # Return the extracted result (processed text, not a file path)
         return extracted_result
 
@@ -188,6 +190,56 @@ def postNewImgToSupabase(max_conf_img_path, new_id):
         logging.error(f"Error uploading image to Supabase storage: {e}")
         raise Exception(f"Failed to upload image to Supabase storage: {e}")
 
+
+def upload_and_cleanup_videos(new_id):
+    # Supabase 클라이언트 생성
+    supabase_yms = createSupabaseClient_YMS()
+
+    # runs/detect/exp 디렉토리 설정
+    detect_dir = os.path.join(os.getcwd(), "yolo", "runs", "detect")
+    exp_dir = os.path.join(detect_dir, "exp")
+    
+    # .mp4 파일 업로드
+    if os.path.exists(exp_dir):
+        mp4_files = [f for f in os.listdir(exp_dir) if f.endswith('.mp4')]
+        logging.info(f"LOG-- DETECTED MP4 FILE: {mp4_files}")
+        
+        if mp4_files:
+            for mp4_file in mp4_files:
+                file_path = os.path.join(exp_dir, mp4_file)
+                try:
+                    with open(file_path, "rb") as video_file:
+                        storage_bucket = os.getenv("STORAGE_RESULT_VIDEO_BUCKET")
+                        # Supabase에 파일 업로드
+                        logging.info(f"LOG-- Attempting to upload {mp4_file} to bucket {storage_bucket}")
+
+                        response = supabase_yms.storage.from_(storage_bucket).upload(
+                            f"{new_id}.mp4", video_file
+                        )
+
+                        if not response.path:
+                            raise Exception(f"Upload failed, no path returned. Response: {response}")
+
+                        # 업로드 성공 로그
+                        logging.info(f"Image uploaded successfully: {new_id}.mp4 to bucket {storage_bucket}")
+                        logging.info(f"Uploaded file path: {response.full_path}")
+
+                except Exception as e:
+                    logging.error(f"LOG-- Error uploading {mp4_file}: {e}")
+        else:
+            logging.warning(f"LOG-- No .mp4 files found in {exp_dir}.")
+    else:
+        logging.warning(f"LOG-- Directory {exp_dir} does not exist, skipping upload.")
+
+    # runs/detect 디렉토리 내 모든 하위 폴더 삭제
+    if os.path.exists(detect_dir):
+        for folder in os.listdir(detect_dir):
+            folder_path = os.path.join(detect_dir, folder)
+            if os.path.isdir(folder_path):
+                shutil.rmtree(folder_path)  # 폴더 삭제
+                logging.info(f"LOG-- Deleted folder: {folder_path}")
+    else:
+        logging.warning(f"LOG-- Directory {detect_dir} does not exist, skipping cleanup.")
 
 
 # Main function to handle the folder or file
