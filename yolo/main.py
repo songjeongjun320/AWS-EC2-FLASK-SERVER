@@ -214,7 +214,7 @@ def upload_and_cleanup_videos(new_id):
                         logging.info(f"LOG-- Attempting to upload {mp4_file} to bucket {storage_bucket}")
 
                         response = supabase_yms.storage.from_(storage_bucket).upload(
-                            f"{new_id}.mp4", video_file
+                            f"{new_id:03}.mp4", video_file
                         )
 
                         if not response.path:
