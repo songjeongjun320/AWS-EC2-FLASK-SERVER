@@ -67,7 +67,7 @@ def process_yolo():
 
         # YOLO 처리 함수 호출
         logging.info("Running YOLO model on the downloaded video.")
-        extracted_result = read_cntr_number_region(local_path, driver_name)  # YOLO 결과 이미지 경로 반환
+        extracted_result, new_id = read_cntr_number_region(local_path, driver_name)  # YOLO 결과 이미지 경로 반환
         logging.info(f"LOG-- Extracted Container Number: {extracted_result}")
 
         # 비디오 삭제
@@ -77,7 +77,7 @@ def process_yolo():
         else:
             logging.warning(f"LOG-- Video file {local_path} does not exist, skipping deletion.")
 
-        return jsonify({"message": "Processed video successfully", "extracted_result": extracted_result}), 200
+        return jsonify({"message": "Processed video successfully", "extracted_result": extracted_result, "new_id": new_id}), 200
 
     except Exception as e:
         logging.error(f"LOG-- Error processing video: {e}")

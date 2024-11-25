@@ -51,8 +51,8 @@ def read_cntr_number_region(video_path, driver_name) -> str:
     print("The most confident img path: ", max_conf_img_path)
 
     logging.info(f"LOG-- Most confident image path: {max_conf_img_path}")
-    extracted_result = send_to_AWS_Textract(max_conf_img_path, driver_name)
-    return extracted_result
+    extracted_result, new_id = send_to_AWS_Textract(max_conf_img_path, driver_name)
+    return extracted_result, new_id
 
 
 # Extract the text from the cutted image file
@@ -96,7 +96,7 @@ def send_to_AWS_Textract(max_conf_img_path, driver_name) -> str:
 
         upload_and_cleanup_videos(new_id)
         # Return the extracted result (processed text, not a file path)
-        return extracted_result
+        return extracted_result, new_id
 
     except Exception as e:
         # Log the error and re-raise it for higher-level handling
